@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)https://miescapedigital.com/pautas-de-diseno-de-pcb/#gsc.tab=0 -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="google-site-verification" content="6me2yLErwzs-58Ee-wJr8P9IOTEE7J4ULwm_TlRqyxY">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v24.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Pautas de diseño de PCB | Escape Digital</title>
+	<meta name="description" content="Conceptos básicos de las guías de diseño de PCB y los puntos que se deben observar durante el diseño de PCB y el diseño de la placa de circuito impreso.">
+	<link rel="canonical" href="https://miescapedigital.com/pautas-de-diseno-de-pcb/">
+	<meta property="og:locale" content="es_ES">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Pautas de diseño de PCB | Escape Digital">
+	<meta property="og:description" content="Conceptos básicos de las guías de diseño de PCB y los puntos que se deben observar durante el diseño de PCB y el diseño de la placa de circuito impreso.">
+	<meta property="og:url" content="https://miescapedigital.com/pautas-de-diseno-de-pcb/">
+	<meta property="og:site_name" content="Escape Digital">
+	<meta property="article:publisher" content="https://www.facebook.com/EscapeDigitall">
+	<meta property="article:published_time" content="2019-05-02T21:39:28+00:00">
+	<meta property="article:modified_time" content="2019-05-06T15:48:40+00:00">
+	<meta property="og:image" content="https://miescapedigital.com/wp-content/uploads/2019/05/Evatronix_Printed_Circuits_Board_01_1920x1080.jpg">
+	<meta property="og:image:width" content="1920">
+	<meta property="og:image:height" content="1080">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="author" content="FV">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:creator" content="@EscapeDigitall">
+	<meta name="twitter:site" content="@EscapeDigitall">
+	<meta name="twitter:label1" content="Escrito por">
+	<meta name="twitter:data1" content="FV">
+	<meta name="twitter:label2" content="Tiempo de lectura">
+	<meta name="twitter:data2" content="4 minutos">
+	<script type="text/javascript" async="" src="./img01_files/js"></script><script type="text/javascript" async="" charset="utf-8" src="./img01_files/recaptcha__en.js.download" crossorigin="anonymous" integrity="sha384-hMRK0O5yONYyWozhMPAOsqD6FUT4Umqf2w2sD06QMtC2oC1RiWPtXyh+xZzIPMN0"></script><script src="./img01_files/f.txt"></script><script async="" src="./img01_files/async-ads.js.download"></script><script src="./img01_files/f(1).txt"></script><script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/#article","isPartOf":{"@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/"},"author":{"name":"FV","@id":"https://miescapedigital.com/#/schema/person/7dcfecf40392cd3e5d42af8daef64654"},"headline":"Pautas de diseño de PCB","datePublished":"2019-05-02T21:39:28+00:00","dateModified":"2019-05-06T15:48:40+00:00","mainEntityOfPage":{"@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/"},"wordCount":804,"commentCount":0,"publisher":{"@id":"https://miescapedigital.com/#organization"},"image":{"@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/#primaryimage"},"thumbnailUrl":"https://miescapedigital.com/wp-content/uploads/2019/05/Evatronix_Printed_Circuits_Board_01_1920x1080.jpg","keywords":["PCB"],"articleSection":["Tutoriales"],"inLanguage":"es","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://miescapedigital.com/pautas-de-diseno-de-pcb/#respond"]}]},{"@type":"WebPage","@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/","url":"https://miescapedigital.com/pautas-de-diseno-de-pcb/","name":"Pautas de diseño de PCB | Escape Digital","isPartOf":{"@id":"https://miescapedigital.com/#website"},"primaryImageOfPage":{"@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/#primaryimage"},"image":{"@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/#primaryimage"},"thumbnailUrl":"https://miescapedigital.com/wp-content/uploads/2019/05/Evatronix_Printed_Circuits_Board_01_1920x1080.jpg","datePublished":"2019-05-02T21:39:28+00:00","dateModified":"2019-05-06T15:48:40+00:00","description":"Conceptos básicos de las guías de diseño de PCB y los puntos que se deben observar durante el diseño de PCB y el diseño de la placa de circuito impreso.","breadcrumb":{"@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://miescapedigital.com/pautas-de-diseno-de-pcb/"]}]},{"@type":"ImageObject","inLanguage":"es","@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/#primaryimage","url":"https://miescapedigital.com/wp-content/uploads/2019/05/Evatronix_Printed_Circuits_Board_01_1920x1080.jpg","contentUrl":"https://miescapedigital.com/wp-content/uploads/2019/05/Evatronix_Printed_Circuits_Board_01_1920x1080.jpg","width":1920,"height":1080,"caption":"PCB"},{"@type":"BreadcrumbList","@id":"https://miescapedigital.com/pautas-de-diseno-de-pcb/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://miescapedigital.com/"},{"@type":"ListItem","position":2,"name":"Tutoriales","item":"https://miescapedigital.com/category/tutoriales/"},{"@type":"ListItem","position":3,"name":"Pautas de diseño de PCB"}]},{"@type":"WebSite","@id":"https://miescapedigital.com/#website","url":"https://miescapedigital.com/","name":"Escape Digital","description":"Escape Digital es el blog donde encontrarás todo lo relacionado con tecnología, marketing betting y más.","publisher":{"@id":"https://miescapedigital.com/#organization"},"alternateName":"Escape Digital","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://miescapedigital.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"es"},{"@type":"Organization","@id":"https://miescapedigital.com/#organization","name":"Escape Digital","alternateName":"Escape Digital","url":"https://miescapedigital.com/","logo":{"@type":"ImageObject","inLanguage":"es","@id":"https://miescapedigital.com/#/schema/logo/image/","url":"https://miescapedigital.com/wp-content/uploads/2023/02/Escape-Digital.jpg","contentUrl":"https://miescapedigital.com/wp-content/uploads/2023/02/Escape-Digital.jpg","width":640,"height":640,"caption":"Escape Digital"},"image":{"@id":"https://miescapedigital.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/EscapeDigitall","https://x.com/EscapeDigitall","https://instagram.com/escapedigital/","https://www.youtube.com/channel/UC72mqh7xIjxe65XL-gXVd9A"]},{"@type":"Person","@id":"https://miescapedigital.com/#/schema/person/7dcfecf40392cd3e5d42af8daef64654","name":"FV","image":{"@type":"ImageObject","inLanguage":"es","@id":"https://miescapedigital.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/8754eb5417eced85a32c3e8c05dc83bb?s=96&d=monsterid&r=g","contentUrl":"https://secure.gravatar.com/avatar/8754eb5417eced85a32c3e8c05dc83bb?s=96&d=monsterid&r=g","caption":"FV"},"description":"Diseñador gráfico y web, con ganas de trabajar y aprender todo lo posible de este campo tan variado. Creativo tanto en la vida laboral como personal. Diseñar es el arte de transmitir gráficamente lo que uno imagina. Imagina, crea, diseña.","url":"https://miescapedigital.com/author/fabian-valencia/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="https://www.google.com/">
+<link rel="dns-prefetch" href="https://stats.wp.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://c0.wp.com/">
+<link rel="alternate" type="application/rss+xml" title="Escape Digital  » Feed" href="https://miescapedigital.com/feed/">
+<link rel="alternate" type="application/rss+xml" title="Escape Digital  » Feed de los comentarios" href="https://miescapedigital.com/comments/feed/">
+<link rel="alternate" type="application/rss+xml" title="Escape Digital  » Comentario Pautas de diseño de PCB del feed" href="https://miescapedigital.com/pautas-de-diseno-de-pcb/feed/">
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v8.3.2 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var em_version = '8.3.2';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+								var ExactMetricsDefaultLocations = {"page_location":"https:\/\/miescapedigital.com\/pautas-de-diseno-de-pcb\/"};
+				if ( typeof ExactMetricsPrivacyGuardFilter === 'function' ) {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsPrivacyGuardFilter( ExactMetricsExcludeQuery ) : ExactMetricsPrivacyGuardFilter( ExactMetricsDefaultLocations );
+				} else {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsExcludeQuery : ExactMetricsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-KV2Z6H50S9',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.ExactMetricsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (em_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = exactmetrics_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof ExactMetricsDualTracker.trackers[hookName] !== 'undefined') {
+								ExactMetricsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dNDMyYj': true,
+											});
+					if ( ExactMetricsLocations.page_location ) {
+						__gtagTracker('set', ExactMetricsLocations);
+					}
+										__gtagTracker('config', 'G-KV2Z6H50S9', {"forceSSL":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/miescapedigital.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="./img01_files/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="quads-style-css-css" href="./img01_files/blocks.style.build.css" type="text/css" media="all">
+<link rel="stylesheet" id="mediaelement-css" href="./img01_files/mediaelementplayer-legacy.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-mediaelement-css" href="./img01_files/wp-mediaelement.min.css" type="text/css" media="all">
+<style id="jetpack-sharing-buttons-style-inline-css" type="text/css">
+.jetpack-sharing-buttons__services-list{display:flex;flex-direction:row;flex-wrap:wrap;gap:0;list-style-type:none;margin:5px;padding:0}.jetpack-sharing-buttons__services-list.has-small-icon-size{font-size:12px}.jetpack-sharing-buttons__services-list.has-normal-icon-size{font-size:16px}.jetpack-sharing-buttons__services-list.has-large-icon-size{font-size:24px}.jetpack-sharing-buttons__services-list.has-huge-icon-size{font-size:36px}@media print{.jetpack-sharing-buttons__services-list{display:none!important}}.editor-styles-wrapper .wp-block-jetpack-sharing-buttons{gap:0;padding-inline-start:0}ul.jetpack-sharing-buttons__services-list.has-background{padding:1.25em 2.375em}
+</style>
+<link rel="stylesheet" id="wpblog-post-layouts-block-style-css" href="./img01_files/build.css" type="text/css" media="all">
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="wpsf_wpsf-css" href="./img01_files/wpsf.css" type="text/css" media="all">
+<link rel="stylesheet" id="cmplz-general-css" href="./img01_files/cookieblocker.min.css" type="text/css" media="all">
+<link data-service="google-fonts" data-category="marketing" rel="stylesheet" id="wpblog-post-layouts-google-fonts-css" data-href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C100%2C300%2C400%2C500%2C700%2C900%7CYanone+Kaffeesatz%3A200%2C300%2C400%2C500%2C600%2C700%7COpen+Sans%3A300%2C400%2C600%2C700%2C800%7CRoboto+Slab%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CPoppins%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=1.1.4#038;subset=latin%2Clatin-ext" type="text/css" media="all" class="cmplz-activated">
+<link rel="stylesheet" id="fontawesome-css" href="./img01_files/all.min.css" type="text/css" media="all">
+<link data-service="google-fonts" data-category="marketing" rel="stylesheet" id="wpmagazine-modules-lite-google-fonts-css" data-href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C100%2C300%2C400%2C500%2C700%2C900%7CYanone+Kaffeesatz%3A200%2C300%2C400%2C500%2C600%2C700%7COpen+Sans%3A300%2C400%2C600%2C700%2C800%7CRoboto+Slab%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CPoppins%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;subset=latin%2Clatin-ext" type="text/css" media="all" class="cmplz-activated">
+<link rel="stylesheet" id="wpmagazine-modules-lite-frontend-css" href="./img01_files/build(1).css" type="text/css" media="all">
+<link rel="stylesheet" id="slick-slider-css" href="./img01_files/slick.css" type="text/css" media="all">
+<link rel="stylesheet" id="slick-slider-theme-css" href="./img01_files/slick-theme.css" type="text/css" media="all">
+<link data-service="google-fonts" data-category="marketing" rel="stylesheet" id="color-blog-fonts-css" data-href="https://fonts.googleapis.com/css?family=Josefin+Sans%3A400%2C700%7CPoppins%3A300%2C400%2C400i%2C500%2C700&amp;subset=latin%2Clatin-ext" type="text/css" media="all" class="cmplz-activated">
+<link rel="stylesheet" id="font-awesome-css" href="./img01_files/font-awesome.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="lightslider-style-css" href="./img01_files/lightslider.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css" href="./img01_files/animate.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="preloader-css" href="./img01_files/mt-preloader.css" type="text/css" media="all">
+<link rel="stylesheet" id="color-blog-style-css" href="./img01_files/style.css" type="text/css" media="all">
+<style id="color-blog-style-inline-css" type="text/css">
+.category-button.cb-cat-984 a{background:#1e73be}
+.category-button.cb-cat-984 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-984 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-984 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-4 a{background:#1e73be}
+.category-button.cb-cat-4 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-4 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-4 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-3956 a{background:#1e73be}
+.category-button.cb-cat-3956 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-3956 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-3956 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-2428 a{background:#1e73be}
+.category-button.cb-cat-2428 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-2428 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-2428 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-3941 a{background:#1e73be}
+.category-button.cb-cat-3941 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-3941 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-3941 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-3937 a{background:#1e73be}
+.category-button.cb-cat-3937 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-3937 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-3937 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-868 a{background:#1e73be}
+.category-button.cb-cat-868 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-868 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-868 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-788 a{background:#1e73be}
+.category-button.cb-cat-788 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-788 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-788 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-887 a{background:#1e73be}
+.category-button.cb-cat-887 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-887 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-887 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-434 a{background:#1e73be}
+.category-button.cb-cat-434 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-434 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-434 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-2138 a{background:#1e73be}
+.category-button.cb-cat-2138 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-2138 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-2138 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-3938 a{background:#1e73be}
+.category-button.cb-cat-3938 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-3938 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-3938 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-3939 a{background:#1e73be}
+.category-button.cb-cat-3939 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-3939 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-3939 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-11 a{background:#1e73be}
+.category-button.cb-cat-11 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-11 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-11 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-1036 a{background:#1e73be}
+.category-button.cb-cat-1036 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-1036 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-1036 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-1912 a{background:#1e73be}
+.category-button.cb-cat-1912 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-1912 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-1912 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-36 a{background:#1e73be}
+.category-button.cb-cat-36 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-36 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-36 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-2093 a{background:#1e73be}
+.category-button.cb-cat-2093 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-2093 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-2093 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-796 a{background:#1e73be}
+.category-button.cb-cat-796 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-796 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-796 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-979 a{background:#1e73be}
+.category-button.cb-cat-979 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-979 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-979 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-6 a{background:#1e73be}
+.category-button.cb-cat-6 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-6 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-6 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-5 a{background:#1e73be}
+.category-button.cb-cat-5 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-5 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-5 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-526 a{background:#1e73be}
+.category-button.cb-cat-526 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-526 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-526 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-537 a{background:#1e73be}
+.category-button.cb-cat-537 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-537 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-537 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-1148 a{background:#1e73be}
+.category-button.cb-cat-1148 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-1148 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-1148 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-787 a{background:#1e73be}
+.category-button.cb-cat-787 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-787 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-787 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-134 a{background:#1e73be}
+.category-button.cb-cat-134 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-134 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-134 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-1 a{background:#1e73be}
+.category-button.cb-cat-1 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-1 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-1 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-1911 a{background:#1e73be}
+.category-button.cb-cat-1911 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-1911 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-1911 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-4510 a{background:#1e73be}
+.category-button.cb-cat-4510 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-4510 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-4510 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-13 a{background:#1e73be}
+.category-button.cb-cat-13 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-13 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-13 .menu-item-description:after{border-top-color:#1e73be}
+.category-button.cb-cat-588 a{background:#1e73be}
+.category-button.cb-cat-588 a:hover{background:#00418c}
+#site-navigation ul li.cb-cat-588 .menu-item-description{background:#1e73be}
+#site-navigation ul li.cb-cat-588 .menu-item-description:after{border-top-color:#1e73be}
+a,a:hover,a:focus,a:active,.entry-cat .cat-links a:hover,.entry-cat a:hover,.entry-footer a:hover,.comment-author .fn .url:hover,.commentmetadata .comment-edit-link,#cancel-comment-reply-link,#cancel-comment-reply-link:before,.logged-in-as a,.widget a:hover,.widget a:hover::before,.widget li:hover::before,.mt-social-icon-wrap li a:hover,#site-navigation ul li:hover>a,#site-navigation ul li.current-menu-item>a,#site-navigation ul li.current_page_ancestor>a,#site-navigation ul li.current-menu-ancestor>a,#site-navigation ul li.current_page_item>a,#site-navigation ul li.focus>a,.banner-sub-title,.entry-title a:hover,.cat-links a:hover,.entry-footer .mt-readmore-btn:hover,.btn-wrapper a:hover,.mt-readmore-btn:hover,.navigation.pagination .nav-links .page-numbers.current,.navigation.pagination .nav-links a.page-numbers:hover,#footer-menu li a:hover,.color_blog_latest_posts .mt-post-title a:hover,#mt-scrollup:hover,.menu-toggle:hover,#top-navigation ul li a:hover,.mt-search-icon:hover,.entry-meta a:hover,.front-slider-block .banner-title a:hover,.post-info-wrap .entry-meta a:hover,.single .mt-single-related-posts .entry-title a:hover,.breadcrumbs .trail-items li a:hover,.wrap-label i,.has-thumbnail .post-info-wrap .entry-title a:hover,.front-slider-block .post-info-wrap .entry-title a:hover,#top-footer a:hover{color:#1e73be}
+.widget_search .search-submit,.widget_search .search-submit:hover,.navigation.pagination .nav-links .page-numbers.current,.navigation.pagination .nav-links a.page-numbers:hover,.error-404.not-found,.color_blog_social_media a:hover,.custom-header,.widget_tag_cloud .tagcloud a:hover,.widget.widget_tag_cloud a:hover{border-color:#1e73be}
+.front-slider-block .lSAction > a:hover,.top-featured-post-wrap .post-thumbnail .post-number,.post-cats-list a,#site-navigation .menu-item-description,article .post-thumbnail::before,#secondary .widget .widget-title::before,.mt-related-post-title::before,#colophon .widget .widget-title::before,.features-post-title::before,.mt-menu-search .mt-form-wrap .search-form .search-submit,.widget_tag_cloud .tagcloud a:hover,.widget.widget_tag_cloud a:hover{background:#1e73be}
+.edit-link .post-edit-link,.reply .comment-reply-link,.widget_search .search-submit,.mt-menu-search .mt-form-wrap .search-form .search-submit:hover,article.sticky::before{background:#1e73be}
+.comments-link { clip: rect(1px, 1px, 1px, 1px); height: 1px; position: absolute; overflow: hidden; width: 1px; }
+</style>
+<link rel="stylesheet" id="color-blog-responsive-style-css" href="./img01_files/mt-responsive.css" type="text/css" media="all">
+<style id="quads-styles-inline-css" type="text/css">
+
+    .quads-location ins.adsbygoogle {
+        background: transparent !important;
+    }.quads-location .quads_rotator_img{ opacity:1 !important;}
+    .quads.quads_ad_container { display: grid; grid-template-columns: auto; grid-gap: 10px; padding: 10px; }
+    .grid_image{animation: fadeIn 0.5s;-webkit-animation: fadeIn 0.5s;-moz-animation: fadeIn 0.5s;
+        -o-animation: fadeIn 0.5s;-ms-animation: fadeIn 0.5s;}
+    .quads-ad-label { font-size: 12px; text-align: center; color: #333;}
+    .quads_click_impression { display: none;} .quads-location, .quads-ads-space{max-width:100%;} @media only screen and (max-width: 480px) { .quads-ads-space, .penci-builder-element .quads-ads-space{max-width:340px;}}
+</style>
+<script type="text/javascript" src="./img01_files/frontend-gtag.min.js.download" id="exactmetrics-frontend-script-js" async="async" data-wp-strategy="async"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id="exactmetrics-frontend-script-js-extra">/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/miescapedigital.com","hash_tracking":"false","v4_id":"G-KV2Z6H50S9"};/* ]]> */
+</script>
+<script type="text/javascript" src="./img01_files/jquery.min.js.download" id="jquery-core-js"></script>
+<script type="text/javascript" src="./img01_files/jquery-migrate.min.js.download" id="jquery-migrate-js"></script>
+
+<script type="text/javascript" id="quads_ads_front-js-extra">
+/* <![CDATA[ */
+var quads_analytics = {"ajax_url":"https:\/\/miescapedigital.com\/wp-admin\/admin-ajax.php","quads_front_nonce":"862f453b32"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./img01_files/performance_tracking.min.js.download" id="quads_ads_front-js"></script>
+<link rel="https://api.w.org/" href="https://miescapedigital.com/wp-json/"><link rel="alternate" title="JSON" type="application/json" href="https://miescapedigital.com/wp-json/wp/v2/posts/15001"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://miescapedigital.com/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.7.2">
+<link rel="shortlink" href="https://miescapedigital.com/?p=15001">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://miescapedigital.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmiescapedigital.com%2Fpautas-de-diseno-de-pcb%2F">
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://miescapedigital.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmiescapedigital.com%2Fpautas-de-diseno-de-pcb%2F&amp;format=xml">
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', '352205470');
+		</script>
+
+		<style>img#wpstats{display:none}</style>
+					<style>.cmplz-hidden {
+					display: none !important;
+				}</style>
+<script>
+!function(e,n){"function"==typeof define&&define.amd?define([],n("adsenseLoader")):"object"==typeof exports?module.exports=n("adsenseLoader"):e.adsenseLoader=n("adsenseLoader")}(this,function(e){"use strict";var n=250,t={laziness:1,onLoad:!1},o=function(e,n){var t,o={};for(t in e)Object.prototype.hasOwnProperty.call(e,t)&&(o[t]=e[t]);for(t in n)Object.prototype.hasOwnProperty.call(n,t)&&(o[t]=n[t]);return o},r=function(e,n){var t,o;return function(){var r=this,a=arguments,i=+new Date;t&&i<t+e?(clearTimeout(o),o=setTimeout(function(){t=i,n.apply(r,a)},e)):(t=i,n.apply(r,a))}},a=[],i=[],s=[],d=function(){if(!a.length)return!0;var e=window.pageYOffset,n=window.innerHeight;a.forEach(function(t){var o,r,d=(o=t,r=o.getBoundingClientRect(),{top:r.top+document.body.scrollTop,left:r.left+document.body.scrollLeft}).top,f=t._adsenseLoaderData.options.laziness+1;if(d-e>n*f||e-d-t.offsetHeight-n*f>0)return!0;a=u(a,t),t._adsenseLoaderData.width=c(t),function(e,n){e.classList?e.classList.add(n):e.className+=" "+n}(t.querySelector("ins"),"adsbygoogle"),i.push(t),"undefined"!=typeof adsbygoogle?function(e){(adsbygoogle=window.adsbygoogle||[]).push({});var n=e._adsenseLoaderData.options.onLoad;"function"==typeof n&&e.querySelector("iframe")&&e.querySelector("iframe").addEventListener("load",function(){n(e)})}(t):s.push(t)})},c=function(e){return parseInt(window.getComputedStyle(e,":before").getPropertyValue("content").slice(1,-1)||9999)},u=function(e,n){return e.filter(function(e){return e!==n})},f=function(e,n){return e._adsenseLoaderData={originalHTML:e.innerHTML,options:n},e.adsenseLoader=function(n){"destroy"==n&&(a=u(a,e),i=u(i,e),s=u(i,e),e.innerHTML=e._adsenseLoaderData.originalHTML)},e};function l(e,n){"string"==typeof e?e=document.querySelectorAll(e):void 0===e.length&&(e=[e]),n=o(t,n),[].forEach.call(e,function(e){e=f(e,n),a.push(e)}),this.elements=e,d()}return window.addEventListener("scroll",r(n,d)),window.addEventListener("resize",r(n,d)),window.addEventListener("resize",r(n,function(){if(!i.length)return!0;var e=!1;i.forEach(function(n){n.querySelector("ins").classList.contains("adsbygoogle")||n._adsenseLoaderData.width==c(n)||(e=!0,i=u(i,n),n.innerHTML=n._adsenseLoaderData.originalHTML,a.push(n))}),e&&d()})),l.prototype={destroy:function(){this.elements.forEach(function(e){e.adsenseLoader("destroy")})}},window.adsenseLoaderConfig=function(e){void 0!==e.throttle&&(n=e.throttle)},l});</script>
+ <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({
+                  google_ad_client: "ca-pub-4158089508640935",
+                  enable_page_level_ads: true
+                  }); 
+                 </script><script src="./img01_files/f(2).txt"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script>document.cookie = 'quads_browser_width='+screen.width;</script><link rel="pingback" href="https://miescapedigital.com/xmlrpc.php">		<style type="text/css">
+					.site-title,
+			.site-description {
+				position: absolute;
+				clip: rect(1px, 1px, 1px, 1px);
+			}
+				</style>
+		<link rel="icon" href="https://miescapedigital.com/wp-content/uploads/2023/02/cropped-Escape-Digital-32x32.jpg" sizes="32x32">
+<link rel="icon" href="https://miescapedigital.com/wp-content/uploads/2023/02/cropped-Escape-Digital-192x192.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="https://miescapedigital.com/wp-content/uploads/2023/02/cropped-Escape-Digital-180x180.jpg">
+<meta name="msapplication-TileImage" content="https://miescapedigital.com/wp-content/uploads/2023/02/cropped-Escape-Digital-270x270.jpg">
+<meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9wSqI5i0iwGdf6L1CERNdmsTPgVu44ewj8QxTBYgsv1LCPUVF7YmWOvTappqB1139jAymxUW/RO8zmMqo4zlAAAAACNeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+d7vJfYtay4OUbdtRPZA3y7bKQLsxaMEPmxgfhBGqKXNrdkCQeJlUwqa6EBbSfjwFtJWTrWIioXeMW+y8bWAgQAAACTeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiRmxlZGdlQmlkZGluZ0FuZEF1Y3Rpb25TZXJ2ZXIiLCJleHBpcnkiOjE3MzY4MTI4MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><link href="./img01_files/banner-1-optin.css" type="text/css" rel="stylesheet"><script src="./img01_files/wp-emoji-release.min.js.download" defer=""></script><script src="./img01_files/cse_element__en.js.download" type="text/javascript"></script><link type="text/css" href="./img01_files/default+en.css" rel="stylesheet"><link type="text/css" href="./img01_files/default.css" rel="stylesheet"><style type="text/css">.gsc-control-cse{font-family:arial, sans-serif}.gsc-control-cse .gsc-table-result{font-family:arial, sans-serif}.gsc-refinementsGradient{background:linear-gradient(to left,rgba(255,255,255,1),rgba(255,255,255,0))}</style><style type="text/css">.gscb_a{display:inline-block;font:27px/13px arial,sans-serif}.gsst_a .gscb_a{color:#a1b9ed;cursor:pointer}.gsst_a:hover .gscb_a,.gsst_a:focus .gscb_a{color:#36c}.gsst_a{display:inline-block}.gsst_a{cursor:pointer;padding:0 4px}.gsst_a:hover{text-decoration:none!important}.gsst_b{font-size:16px;padding:0 2px;position:relative;user-select:none;-webkit-user-select:none;white-space:nowrap}.gsst_e{vertical-align:middle;opacity:0.55;}.gsst_a:hover .gsst_e,.gsst_a:focus .gsst_e{opacity:0.72;}.gsst_a:active .gsst_e{opacity:1;}.gsst_f{background:white;text-align:left}.gsst_g{background-color:white;border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);margin:-1px -3px;padding:0 6px}.gsst_h{background-color:white;height:1px;margin-bottom:-1px;position:relative;top:-1px}.gsib_a{width:100%;padding:4px 6px 0}.gsib_a,.gsib_b{vertical-align:top}.gssb_c{border:0;position:absolute;z-index:989}.gssb_e{border:1px solid #ccc;border-top-color:#d9d9d9;box-shadow:0 2px 4px rgba(0,0,0,0.2);-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);cursor:default}.gssb_f{visibility:hidden;white-space:nowrap}.gssb_k{border:0;display:block;position:absolute;top:0;z-index:988}.gsdd_a{border:none!important}.gsq_a{padding:0}.gssb_a{padding:0 7px}.gssb_a,.gssb_a td{white-space:nowrap;overflow:hidden;line-height:22px}#gssb_b{font-size:11px;color:#36c;text-decoration:none}#gssb_b:hover{font-size:11px;color:#36c;text-decoration:underline}.gssb_g{text-align:center;padding:8px 0 7px;position:relative}.gssb_h{font-size:15px;height:28px;margin:0.2em;-webkit-appearance:button}.gssb_i{background:#eee}.gss_ifl{visibility:hidden;padding-left:5px}.gssb_i .gss_ifl{visibility:visible}a.gssb_j{font-size:13px;color:#36c;text-decoration:none;line-height:100%}a.gssb_j:hover{text-decoration:underline}.gssb_l{height:1px;background-color:#e5e5e5}.gssb_m{color:#000;background:#fff}.gssb_a{padding:0 9px}.gsib_a{padding:5px 9px 4px 9px}.gscb_a{line-height:27px}.gssb_e{border:0}.gssb_l{margin:5px 0}input.gsc-input::-webkit-input-placeholder{font-size:14px}input.gsc-input:-moz-placeholder{font-size:14px}input.gsc-input::-moz-placeholder{font-size:14px}input.gsc-input:-ms-input-placeholder{font-size:14px}input.gsc-input:focus::-webkit-input-placeholder{color:transparent}input.gsc-input:focus:-moz-placeholder{color:transparent}input.gsc-input:focus::-moz-placeholder{color:transparent}input.gsc-input:focus:-ms-input-placeholder{color:transparent}.gssb_c .gsc-completion-container{position:static}.gssb_c{z-index:5000}.gsc-completion-container table{background:transparent;font-size:inherit;font-family:inherit}.gssb_c > tbody > tr,.gssb_c > tbody > tr > td,.gssb_d,.gssb_d > tbody > tr,.gssb_d > tbody > tr > td,.gssb_e,.gssb_e > tbody > tr,.gssb_e > tbody > tr > td{padding:0;margin:0;border:0}.gssb_a table,.gssb_a table tr,.gssb_a table tr td{padding:0;margin:0;border:0}</style><script async="" src="./img01_files/ca-pub-4158089508640935"></script><script src="./img01_files/async-ads(1).js.download"></script><script async="" src="./img01_files/AGSKWxVxiPry58D1Z2Pz4nBM06U4DnZr0HIif8aoMHEFsW409ABQ4-4nrfdeoI34NliQ9wdaWRddo4l05O6SWj56W77Qtf5Z6g2xmFoMpDe-GOklS3DbqNoAMmUwcVjcosCwzeWOb7WrRA=="></script><script async="" src="./img01_files/AGSKWxXlQgRs_egcfzi_Q6d7XgIVOOyin-ONQnJh0883EqmXYhJODUAfSpl3BWJYPXlleDphqwb5fJls9Ot_7KUarF7uRwtpiyDLlxkehPkjDoldiS39mA562PKnUzrcauKVqYf1HZr4rQ=="></script><script async="" src="./img01_files/AGSKWxUFqL6htx4d6prykgLoOMtAHuNm2i0pmPjPWWtm2SAHfXHB7DkY2AI9Pof78kzpcdpYkvi64A91zR9tajVUohr8SotBmS40oNCaIomg8vSazjyWix3bHC7ejzCO0wZCwwy3qveAKw=="></script><script async="" src="./img01_files/AGSKWxXGa3TB9boyMVZ05rRShAV23KYO_w_WmxqJe4OGNbGuQ97sO0C5BuzIQCLzRIdEFo5dLIHJZlebpMkIdDx0P2oDevGXDkjSwtUviRqy07uBfFEfKSbqKqjq5yyLaXPIpRoQSH3fpQ=="></script><script async="" src="./img01_files/AGSKWxXJn3Miy3SSCzJKgY4T_gGMWJadTQuGw5WyaWgwh7XS4w6Y5buoe0uVlep28KI0q4nEBMb1u-EFLREhuLOd9rooxwNZvw8-EdCGAlzcJAzq6CfTdwt9_pa0BwWaDOjrAxoR5VmfqQ=="></script><link rel="stylesheet" type="text/css" href="./img01_files/css"><link rel="stylesheet" type="text/css" href="./img01_files/css(1)"><link rel="stylesheet" type="text/css" href="./img01_files/css(2)"><script src="./img01_files/api.js.download" data-cmplz-src="https://www.google.com/recaptcha/api.js?ver=6.7.2" id="recaptcha-js" class="cmplz-activated"></script><script src="./img01_files/js(1)" data-cmplz-src="//www.googletagmanager.com/gtag/js?id=G-KV2Z6H50S9" data-cfasync="false" data-wpfc-render="false" class="cmplz-activated"></script><script src="./img01_files/js(2)" data-cmplz-src="https://www.googletagmanager.com/gtag/js?id=352205470" class="cmplz-activated"></script><script src="./img01_files/e-202512.js.download" data-cmplz-src="https://stats.wp.com/e-202512.js" id="jetpack-stats-js" defer="defer" data-wp-strategy="defer" class="cmplz-activated"></script></head>
+
+<body data-rsssl="1" data-cmplz="1" class="post-template-default single single-post postid-15001 single-format-standard wp-custom-logo site-layout--wide right-sidebar comment-hidden cmplz-marketing cmplz-statistics cmplz-preferences cmplz-functional cmplz-eu cmplz-optin"><div id="cmplz-cookiebanner-container" class="cmplz-soft-cookiewall cmplz-dismissed"><div class="cmplz-cookiebanner banner-1 bottom-right-minimal optin cmplz-bottom-right cmplz-categories-type-view-preferences cmplz-dismissed" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Gestionar el Consentimiento de las Cookies</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Cerrar ventana">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin">Utilizamos tecnologías como las cookies para almacenar y/o acceder a la información del dispositivo. Lo hacemos para mejorar la experiencia de navegación y para mostrar anuncios (no) personalizados. El consentimiento a estas tecnologías nos permitirá procesar datos como el comportamiento de navegación o los ID's únicos en este sitio. No consentir o retirar el consentimiento, puede afectar negativamente a ciertas características y funciones.</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funcional</span>
+							<span class="cmplz-always-active">
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox" id="cmplz-functional-optin" data-category="cmplz_functional" class="cmplz-consent-checkbox cmplz-functional" size="40" value="1">
+									<label class="cmplz-label" for="cmplz-functional-optin" tabindex="0"><span class="screen-reader-text">Funcional</span></label>
+								</span>
+								Siempre activo							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">El almacenamiento o acceso técnico es estrictamente necesario para el propósito legítimo de permitir el uso de un servicio específico explícitamente solicitado por el abonado o usuario, o con el único propósito de llevar a cabo la transmisión de una comunicación a través de una red de comunicaciones electrónicas.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferencias</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-preferences-optin" data-category="cmplz_preferences" class="cmplz-consent-checkbox cmplz-preferences" size="40" value="1">
+								<label class="cmplz-label" for="cmplz-preferences-optin" tabindex="0"><span class="screen-reader-text">Preferencias</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">El almacenamiento o acceso técnico es necesario para la finalidad legítima de almacenar preferencias no solicitadas por el abonado o usuario.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Estadísticas</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-statistics-optin" data-category="cmplz_statistics" class="cmplz-consent-checkbox cmplz-statistics" size="40" value="1">
+								<label class="cmplz-label" for="cmplz-statistics-optin" tabindex="0"><span class="screen-reader-text">Estadísticas</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">El almacenamiento o acceso técnico que es utilizado exclusivamente con fines estadísticos.</span>
+					<span class="cmplz-description-statistics-anonymous">El almacenamiento o acceso técnico que se utiliza exclusivamente con fines estadísticos anónimos. Sin un requerimiento, el cumplimiento voluntario por parte de tu proveedor de servicios de Internet, o los registros adicionales de un tercero, la información almacenada o recuperada sólo para este propósito no se puede utilizar para identificarte.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing">
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox" id="cmplz-marketing-optin" data-category="cmplz_marketing" class="cmplz-consent-checkbox cmplz-marketing" size="40" value="1">
+								<label class="cmplz-label" for="cmplz-marketing-optin" tabindex="0"><span class="screen-reader-text">marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="18"><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"></path></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">El almacenamiento o acceso técnico es necesario para crear perfiles de usuario para enviar publicidad, o para rastrear al usuario en un sitio web o en varios sitios web con fines de marketing similares.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<a class="cmplz-link cmplz-manage-options cookie-statement" href="https://miescapedigital.com/politica-de-cookie-ue/#cmplz-manage-consent-container" data-relative_url="#cmplz-manage-consent-container">Administrar opciones</a>
+		<a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="https://miescapedigital.com/politica-de-cookie-ue/#cmplz-cookies-overview" data-relative_url="#cmplz-cookies-overview">Gestionar los servicios</a>
+		<a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="https://miescapedigital.com/politica-de-cookie-ue/#cmplz-tcf-wrapper" data-relative_url="#cmplz-tcf-wrapper">Gestionar {vendor_count} proveedores</a>
+		<a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/">Leer más sobre estos propósitos</a>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Aceptar cookies</button>
+		<button class="cmplz-btn cmplz-deny">Denegado</button>
+		<button class="cmplz-btn cmplz-view-preferences">Ver preferencias</button>
+		<button class="cmplz-btn cmplz-save-preferences">Guardar preferencias</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="https://miescapedigital.com/politica-de-cookie-ue/#cmplz-manage-consent-container" data-relative_url="#cmplz-manage-consent-container">Ver preferencias</a>
+			</div>
+
+	<div class="cmplz-links cmplz-documents">
+		<a class="cmplz-link cookie-statement" href="https://miescapedigital.com/politica-de-cookie-ue/" data-relative_url="">Política de cookie </a>
+		<a class="cmplz-link privacy-statement" href="https://miescapedigital.com/politica-de-privacidad/" data-relative_url="">Politica de Privacidad</a>
+		<a class="cmplz-link impressum cmplz-hidden" href="https://miescapedigital.com/pautas-de-diseno-de-pcb/#" data-relative_url="">{title}</a>
+			</div>
+
+</div>
+</div>
+
+        <div id="preloader-background" style="display: none;">
+            <div class="preloader-wrapper">
+                <div class="sk-spinner sk-spinner-pulse"></div>
+            </div><!-- .preloader-wrapper -->
+        </div><!-- #preloader-background -->
+
+<div id="page" class="site" style="height: auto !important;">
+<a class="skip-link screen-reader-text" href="https://miescapedigital.com/pautas-de-diseno-de-pcb/#content">Skip To Content</a>
+	<div id="top-header" class="top-header-wrap mt-clearfix"><div class="mt-container">        <div class="trending-wrapper tag-before-icon">
+                <span class="wrap-label"><i class="fa fa-bolt" aria-hidden="true"></i> En Tendencia</span>
+                <div class="tags-wrapper">
+					<span class="head-tags-links"><a href="https://miescapedigital.com/tag/bonos-de-bienvenida/" rel="tag">bonos de bienvenida</a><a href="https://miescapedigital.com/tag/diseno-de-paginas-web-en-merida/" rel="tag">Diseño de Páginas Web en Mérida</a><a href="https://miescapedigital.com/tag/windows-11-menu-contextual/" rel="tag">Windows 11 Menú Contextual</a><a href="https://miescapedigital.com/tag/tokyvideo/" rel="tag">TokyVideo</a><a href="https://miescapedigital.com/tag/bancolombia/" rel="tag">Bancolombia</a><a href="https://miescapedigital.com/tag/galacticare/" rel="tag">Galacticare</a><a href="https://miescapedigital.com/tag/mullet-madjack/" rel="tag">Mullet Madjack</a><a href="https://miescapedigital.com/tag/atomfall/" rel="tag">Atomfall</a><a href="https://miescapedigital.com/tag/gema-pass/" rel="tag">Gema pass</a><a href="https://miescapedigital.com/tag/two-point-museum/" rel="tag">Two Point Museum</a></span>                </div><!-- .tags-wrapper -->
+        </div><!-- .trending-wrapper -->
+		<div class="top-header-nav">
+			<nav itemscope="" id="top-navigation" class="main-navigation">
+							</nav><!-- #site-navigation -->
+		</div><!-- .top-header-nav -->
+</div><!-- mt-container --></div><!-- #top-header --><header id="masthead" class="site-header"><div class="mt-logo-row-wrapper mt-clearfix">		<div class="logo-ads-wrap">
+			<div class="mt-container">
+				<div class="site-branding">
+					<a href="https://miescapedigital.com/" class="custom-logo-link" rel="home"><img width="949" height="150" src="./img01_files/cropped-cropped-cropped-heder-final.png" class="custom-logo" alt="Escape Digital " decoding="async" fetchpriority="high" srcset="https://miescapedigital.com/wp-content/uploads/2022/07/cropped-cropped-cropped-heder-final.png 949w, https://miescapedigital.com/wp-content/uploads/2022/07/cropped-cropped-cropped-heder-final-150x24.png 150w, https://miescapedigital.com/wp-content/uploads/2022/07/cropped-cropped-cropped-heder-final-600x95.png 600w" sizes="(max-width: 949px) 100vw, 949px"></a>							<p class="site-title"><a href="https://miescapedigital.com/" rel="home">Escape Digital </a></p>
+												<p class="site-description">Escape Digital es el blog donde encontrarás todo lo relacionado con tecnología, marketing betting y más.</p>
+									</div><!-- .site-branding -->
+				<div class="header-widget-wrapper">
+					<section id="custom_html-7" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script async="" src="./img01_files/f(3).txt"     ="" crossorigin="anonymous" data-checked-head="true"></script>
+<!-- Parrafo 5 -->
+<ins class="adsbygoogle"     ="" style="display:block" data-ad-client="ca-pub-4158089508640935" data-ad-slot="6540319355" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></section>				</div>
+			</div> <!-- mt-container -->
+		</div><!-- .logo-ads-wrap -->
+<div id="sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 60.8px;"><div class="mt-social-menu-wrapper" style="width: 1418.4px; position: fixed; top: 0px;"><div class="mt-container">		<div class="menu-toggle"><a href="javascript:void(0)"><i class="fa fa-navicon"></i>Menu</a></div>
+		<nav itemscope="" id="site-navigation" class="main-navigation">
+			<div class="menu-principal-container"><ul id="primary-menu" class="menu nav-menu" aria-expanded="false"><li id="menu-item-32913" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32913 cb-cat-3937"><a href="https://miescapedigital.com/category/culturadigital/">Cultura Digital</a><a href="javascript:void(0);" class="sub-toggle"><i class="fa fa-angle-right"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-32932" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32932 cb-cat-1148"><a href="https://miescapedigital.com/category/peliculas-series/">Películas | Series</a></li>
+	<li id="menu-item-32931" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32931 cb-cat-3940"><a href="https://miescapedigital.com/category/nfts/">NFTs</a></li>
+	<li id="menu-item-32912" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32912 cb-cat-3941"><a href="https://miescapedigital.com/category/criptomonedas/">Criptomonedas</a></li>
+	<li id="menu-item-32925" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32925 cb-cat-2093"><a href="https://miescapedigital.com/category/lifestyle/">Lifestyle|Finanzas</a></li>
+	<li id="menu-item-32910" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32910 cb-cat-3956"><a href="https://miescapedigital.com/category/bet/">Bet</a></li>
+</ul>
+</li>
+<li id="menu-item-32934" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32934 cb-cat-1911"><a href="https://miescapedigital.com/category/tecnologia/">Tecnología</a><a href="javascript:void(0);" class="sub-toggle"><i class="fa fa-angle-right"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-32930" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32930 cb-cat-5"><a href="https://miescapedigital.com/category/microsoft/">Microsoft</a></li>
+	<li id="menu-item-32920" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32920 cb-cat-3939"><a href="https://miescapedigital.com/category/gadgets/">Gadgets</a></li>
+	<li id="menu-item-32909" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32909 cb-cat-4"><a href="https://miescapedigital.com/category/apple/">Apple</a><a href="javascript:void(0);" class="sub-toggle"><i class="fa fa-angle-right"></i></a>
+	<ul class="sub-menu">
+		<li id="menu-item-32923" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32923 cb-cat-1912"><a href="https://miescapedigital.com/category/ios/">iOS</a></li>
+		<li id="menu-item-32924" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32924 cb-cat-36"><a href="https://miescapedigital.com/category/jailbreak/">Jailbreak</a><a href="javascript:void(0);" class="sub-toggle"><i class="fa fa-angle-right"></i></a>
+		<ul class="sub-menu">
+			<li id="menu-item-32921" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32921 cb-cat-11"><a href="https://miescapedigital.com/category/google/">Google</a><a href="javascript:void(0);" class="sub-toggle"><i class="fa fa-angle-right"></i></a>
+			<ul class="sub-menu">
+				<li id="menu-item-32908" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32908 cb-cat-984"><a href="https://miescapedigital.com/category/android/">Android</a></li>
+			</ul>
+</li>
+		</ul>
+</li>
+		<li id="menu-item-32926" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32926 cb-cat-796"><a href="https://miescapedigital.com/category/macos/">macOS</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-32919" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32919 cb-cat-3938"><a href="https://miescapedigital.com/category/formacion/">Formación</a><a href="javascript:void(0);" class="sub-toggle"><i class="fa fa-angle-right"></i></a>
+<ul class="sub-menu">
+	<li id="menu-item-32917" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-32917 cb-cat-434"><a href="https://miescapedigital.com/category/cursos/">Cursos</a><a href="javascript:void(0);" class="sub-toggle"><i class="fa fa-angle-right"></i></a>
+	<ul class="sub-menu">
+		<li id="menu-item-32922" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32922 cb-cat-1036"><a href="https://miescapedigital.com/category/html/">HTML</a></li>
+		<li id="menu-item-32914" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32914 cb-cat-868"><a href="https://miescapedigital.com/category/curso-photoshop/">Curso Photoshop</a></li>
+		<li id="menu-item-32916" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32916 cb-cat-887"><a href="https://miescapedigital.com/category/prezi/">Curso Prezi</a></li>
+		<li id="menu-item-32915" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32915 cb-cat-788"><a href="https://miescapedigital.com/category/curso-premiere-pro/">Curso Premiere Pro</a></li>
+	</ul>
+</li>
+	<li id="menu-item-32935" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-32935 cb-cat-13"><a href="https://miescapedigital.com/category/tutoriales/">Tutoriales</a><a href="javascript:void(0);" class="sub-toggle"><i class="fa fa-angle-right"></i></a>
+	<ul class="sub-menu">
+		<li id="menu-item-32911" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32911 cb-cat-2428"><a href="https://miescapedigital.com/category/blog/">Blog</a></li>
+		<li id="menu-item-32918" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32918 cb-cat-2138"><a href="https://miescapedigital.com/category/excel/">Excel</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-32928" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32928 cb-cat-526"><a href="https://miescapedigital.com/category/mas/noticias/">Noticias</a></li>
+<li id="menu-item-32927" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32927 cb-cat-979"><a href="https://miescapedigital.com/category/marketing/">Marketing/SEO</a></li>
+<li id="menu-item-32933" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32933 cb-cat-134"><a href="https://miescapedigital.com/category/resenas/">Reseñas</a></li>
+<li id="menu-item-32936" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32936 cb-cat-588"><a href="https://miescapedigital.com/category/videojuegos/">Videojuegos</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+<div class="mt-social-search-wrapper">		<div class="mt-social-wrapper">
+			<span class="mt-follow-title">Follow Us: </span>
+						<ul class="mt-social-icon-wrap">
+											<li class="mt-social-icon">
+								<a href="https://www.facebook.com/EscapeDigitall/" target="_blank">
+									<i class="fa fa-facebook-f"></i>
+								</a>
+							</li>
+											<li class="mt-social-icon">
+								<a href="https://x.com/escapedigitall" target="_blank">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+											<li class="mt-social-icon">
+								<a href="https://www.instagram.com/escapedigital/" target="_blank">
+									<i class="fa fa-instagram"></i>
+								</a>
+							</li>
+											<li class="mt-social-icon">
+								<a href="https://www.youtube.com/@Miescapedigital/" target="_blank">
+									<i class="fa fa-youtube-play"></i>
+								</a>
+							</li>
+							</ul>
+		</div>
+		<div class="mt-menu-search">
+			<div class="mt-search-icon"><a href="javascript:void(0)">Search<i class="fa fa-search"></i></a></div>
+			<div class="mt-form-wrap">
+				<div class="mt-form-close"><a href="javascript:void(0)"><i class="fa fa-close"></i></a></div>
+				<form role="search" method="get" class="search-form" action="https://miescapedigital.com/">
+				<label>
+					<span class="screen-reader-text">Buscar:</span>
+					<input type="search" class="search-field" placeholder="Buscar …" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Buscar">
+			</form>			</div><!-- .mt-form-wrap -->
+		</div><!-- .mt-menu-search -->
+</div><!-- .mt-social-search-wrapper --></div><!--.mt-container --></div></div><!--.mt-social-menu-wrapper --></div><!--.mt-logo-row-wrapper --></header><!-- #masthead -->		<div class="custom-header has-bg-img" style="background-image:url(https://miescapedigital.com/wp-content/uploads/2024/10/cropped-parker-byrd-gxD8hCmi0IQ-unsplash-1-scaled-1.jpg);background-size:cover;">
+            <div class="mt-container">
+<h1 class="entry-title">Pautas de diseño de PCB</h1>		<nav id="breadcrumb" class="mt-breadcrumb">
+			<div role="navigation" aria-label="Breadcrumbs" class="breadcrumb-trail breadcrumbs" itemprop="breadcrumb"><div class="mt-container"><ul class="trail-items" itemscope="" itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="3"><meta name="itemListOrder" content="Ascending"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-begin"><a href="https://miescapedigital.com/" rel="home" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item"><a href="https://miescapedigital.com/category/tutoriales/" itemprop="item"><span itemprop="name">Tutoriales</span></a><meta itemprop="position" content="2"></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="trail-item trail-end"><span itemprop="name"><span itemprop="name">Pautas de diseño de PCB</span></span><meta itemprop="position" content="3"></li></ul></div></div>		</nav>
+			</div><!-- .mt-container -->
+		</div><!-- .custom-header -->
+
+	<div id="content" class="site-content" style="height: auto !important;">
+		<div class="mt-container" style="height: auto !important;">
+<div class="mt-page-content-wrapper">
+	<div itemscope="" id="primary" class="content-area" style="height: auto !important;">
+		<main id="main" class="site-main" style="height: auto !important;">
+		
+<article id="post-15001" class="has-thumbnail post-15001 post type-post status-publish format-standard has-post-thumbnail hentry category-tutoriales tag-pcb" style="height: auto !important;">
+	<div class="post-thumbnail">
+		<img width="1920" height="1080" src="./img01_files/Evatronix_Printed_Circuits_Board_01_1920x1080.jpg" class="attachment-full size-full wp-post-image" alt="PCB" decoding="async" srcset="https://miescapedigital.com/wp-content/uploads/2019/05/Evatronix_Printed_Circuits_Board_01_1920x1080.jpg 1920w, https://miescapedigital.com/wp-content/uploads/2019/05/Evatronix_Printed_Circuits_Board_01_1920x1080-150x84.jpg 150w, https://miescapedigital.com/wp-content/uploads/2019/05/Evatronix_Printed_Circuits_Board_01_1920x1080-1024x576.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px">		<div class="post-info-wrap">
+			<div class="post-cat">			<div class="post-cats-list">
+										<span class="category-button cb-cat-13"><a href="https://miescapedigital.com/category/tutoriales/">Tutoriales</a></span>
+							</div><!-- .post-cats-list --></div>
+			<div class="entry-meta"> 
+				<span class="posted-on"><a href="https://miescapedigital.com/pautas-de-diseno-de-pcb/" rel="bookmark"><time class="entry-date published" datetime="2019-05-02T16:39:28-05:00">02/05/2019</time><time class="updated" datetime="2019-05-06T10:48:40-05:00">06/05/2019</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="https://miescapedigital.com/author/fabian-valencia/">FV</a></span></span> 
+			</div>
+			<h3 class="entry-title"><a href="https://miescapedigital.com/pautas-de-diseno-de-pcb/" rel="bookmark">Pautas de diseño de PCB</a></h3>	    </div><!--.post-info-wrap -->
+	</div><!-- .post-thumbnail -->
+
+	<div class="entry-content" style="height: auto !important;">
+		
+<!-- WP QUADS Content Ad Plugin v. 2.0.87.1 -->
+<div class="quads-location quads-ad35324 " id="quads-ad35324" style="float: none; margin: 0px 3px 3px; padding: 0px; visibility: visible;" data-lazydelay="3000">
+
+ <!-- WP QUADS - Quick AdSense Reloaded v.2.0.87.1 Content AdSense async --> 
+
+<div id="quads-ad1-place" class="quads-ll">
+            <ins style="display: block; height: 0px;" data-ad-format="auto" data-ad-client="ca-pub-4158089508640935" data-ad-slot="6540319355" class="adsbygoogle" data-adsbygoogle-status="done" data-ad-status="unfilled"><span></span><div id="aswift_1_host" style="border: none; height: 0px; width: 918px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 918px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="918" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads.html" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CJa5wdvVk4wDFdJ0nQkdKGkkvA" data-load-complete="true"></iframe></div></ins></div>
+                 <script>
+                 instant= new adsenseLoader( '#quads-ad1-place', {
+        onLoad: function( ad ){
+            if (ad.classList.contains("quads-ll")) {
+                ad.classList.remove("quads-ll");
+            }
+          }   
+        });</script>
+ <!-- end WP QUADS --> 
+
+
+</div>
+
+<!-- WP QUADS Content Ad Plugin v. 2.0.87.1 -->
+<div class="quads-location quads-ad35326 " id="quads-ad35326" style="float: none; margin: 0px 3px 3px; padding: 0px; visibility: visible;" data-lazydelay="3000">
+
+ <!-- WP QUADS - Quick AdSense Reloaded v.2.0.87.1 Content AdSense async --> 
+
+<div id="quads-ad3-place" class="quads-ll">
+            <ins style="display: block; text-align: center; height: 0px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-4158089508640935" data-ad-slot="9880203764" class="adsbygoogle" data-adsbygoogle-status="done" data-ad-status="unfilled"><span></span><div id="aswift_12_host" style="border: none; height: 0px; width: 918px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_12" name="aswift_12" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 918px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="918" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(1).html" data-google-container-id="a!d" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="COXz4d7Vk4wDFXdHnQkdr_MfkA" data-load-complete="true"></iframe></div></ins></div>
+                 <script>
+                 instant= new adsenseLoader( '#quads-ad3-place', {
+        onLoad: function( ad ){
+            if (ad.classList.contains("quads-ll")) {
+                ad.classList.remove("quads-ll");
+            }
+          }   
+        });</script>
+ <!-- end WP QUADS --> 
+
+
+</div>
+
+<p>Una descripción general sobre los conceptos básicos de las guías de diseño de PCB y los puntos que se deben observar durante el diseño de PCB y el diseño de la placa de circuito impreso, también se recomienda el <a href="https://www.altium.com/es/altium-designer-viewer" target="_blank" rel="noreferrer noopener" aria-label="Altium designer viewer (opens in a new tab)">Altium designer viewer</a>. </p><div class="google-auto-placed ap_container" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-4158089508640935" data-adsbygoogle-status="done" style="display: block; margin: auto; background-color: transparent; height: 0px;" data-ad-status="unfilled"><div id="aswift_4_host" style="border: none; height: 0px; width: 924px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_4" name="aswift_4" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 924px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="924" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(2).html" data-google-container-id="a!5" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CKPb2NzVk4wDFRZGnQkdM-gyvQ" data-load-complete="true"></iframe></div></ins></div>
+
+
+
+<p>El tablero de circuito impreso, diseño de PCB, es uno de los elementos de diseño más importantes dentro del diseño de un producto electrónico.&nbsp;En la mayoría de los casos, un ingeniero de diseño de hardware electrónico diseñará el circuito, y luego un especialista en diseño de PCB realizará el diseño y el diseño de PCB a partir de un esquema proporcionado mediante un sistema CAD de PCB.</p>
+
+
+
+<p>El diseño y diseño de PCB es una habilidad especializada que requiere el conocimiento no solo del <a href="https://en.wikipedia.org/wiki/Altium_Designer" target="_blank" rel="noreferrer noopener" aria-label="software (opens in a new tab)">software</a> de diseño de PCB y el sistema de PCB CAD, sino también de una variedad de estándares y técnicas utilizadas para garantizar que el diseño básico del circuito se transfiera con éxito a una placa de circuito impreso general que Se puede fabricar en un entorno de fabricación de circuitos electrónicos.</p>
+
+
+
+<p>Para que una placa de circuito impreso pueda diseñarse satisfactoriamente, a menudo ayuda tener algunas pautas que se pueden seguir, aunque no hay sustituto para la experiencia.</p>
+
+
+
+<h2 class="wp-block-heading">Pautas de diseño de PCB</h2>
+
+
+
+<p>Hay muchas ideas y pautas que pueden elaborarse para el diseño y la disposición de una PCB.&nbsp;La siguiente lista cubre varios de ellos.&nbsp;Obviamente, hay más, y la lista de pautas de diseño de PCB a continuación no debe considerarse como una lista completa.</p>
+<!-- WP QUADS Content Ad Plugin v. 2.0.87.1 -->
+<div class="quads-location quads-ad35515 " id="quads-ad35515" style="float: none; margin: 0px 3px 3px; padding: 0px; visibility: visible;" data-lazydelay="3000">
+
+ <!-- WP QUADS - Quick AdSense Reloaded v.2.0.87.1 Content AdSense async --> 
+
+<div id="quads-ad4-place" class="quads-ll">
+            <ins style="display: block; text-align: center; height: 0px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-4158089508640935" data-ad-slot="9880203764" class="adsbygoogle" data-adsbygoogle-status="done" data-ad-status="unfilled"><span></span><div id="aswift_13_host" style="border: none; height: 0px; width: 918px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_13" name="aswift_13" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 918px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="918" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(3).html" data-google-container-id="a!e" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CLrLht_Vk4wDFXdGnQkdMEIGvQ" data-load-complete="true"></iframe></div></ins></div>
+                 <script>
+                 instant= new adsenseLoader( '#quads-ad4-place', {
+        onLoad: function( ad ){
+            if (ad.classList.contains("quads-ll")) {
+                ad.classList.remove("quads-ll");
+            }
+          }   
+        });</script>
+ <!-- end WP QUADS --> 
+
+
+</div>
+
+
+
+
+<p>Para que las pautas de diseño de PCB puedan seguirse más fácilmente, las pautas se dividen en secciones:</p>
+
+
+
+<ul class="wp-block-list"><li>Directrices de diseño de restricciones de la Junta: las que cubren las restricciones iniciales de la Junta</li><li>Directrices generales de diseño de diseño</li><li>Pautas asociadas a los planos o capas.</li><li>Pautas de diseño de la pista</li><li>Problemas termicos</li><li>Integridad de la señal y consideraciones de RF.</li></ul>
+
+
+
+<p>Estos forman algunas de las principales áreas a considerar para el diseño de un PCB.&nbsp;Para algunos diseños, algunas de las pautas de diseño de PCB serán más importantes que otras, y a menudo habrá que hacer juicios para equilibrar un requisito con otro.</p><div class="google-auto-placed ap_container" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-4158089508640935" data-adsbygoogle-status="done" style="display: block; margin: auto; background-color: transparent; height: 0px;" data-ad-status="unfilled"><div id="aswift_5_host" style="border: none; height: 0px; width: 924px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_5" name="aswift_5" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 924px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="924" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(4).html" data-google-container-id="a!6" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CLzp2dzVk4wDFTxynQkdnVMH4A" data-load-complete="true"></iframe></div></ins></div>
+
+
+
+<h2 class="wp-block-heading">Normas de diseño de PCB de restricción de placa</h2>
+
+
+
+<p>Estas pautas de diseño de PCB están asociadas con las limitaciones de la placa general: – tamaño, forma y algunos de los factores que afectan el diseño general o el concepto de PCB.&nbsp;Estos deben ser algunos de los primeros factores que deben abordarse.</p>
+
+
+
+<ul class="wp-block-list"><li><strong><em>Elija puntos de referencia que se adapten al proceso de fabricación.&nbsp;</em></strong>&nbsp; Normalmente es necesario tener agujeros o puntos de referencia en el tablero.&nbsp;Estos se utilizan para máquinas de pick and place y accesorios de prueba.&nbsp;Deben ser elegidos para adaptarse al proceso de fabricación de PCB.&nbsp;A menudo, pueden ser agujeros para los accesorios, pero también pueden ser marcas cruzadas para los sensores ópticos.&nbsp;Deben estar libres de componentes, y no ocultos.</li><li><strong><em>Permitir un área de placa adecuada para el circuito</em></strong>&nbsp;&nbsp; A menudo, las dimensiones de la placa se definirán por el tamaño total del producto, pero antes de que comience el diseño de la PCB, se deben hacer estimaciones sobre el tamaño de la placa y si puede acomodar los componentes y sus pistas.</li><li><strong><em>Determine la cantidad de capas requeridas</em></strong>&nbsp;&nbsp; Es sabio determinar la cantidad de capas de pista que se necesitan dentro de la placa de circuito impreso al comienzo del diseño.&nbsp;Las capas adicionales aumentan los costos de producción, pero pueden significar que las pistas se pueden acomodar.&nbsp;Los diseños complejos pueden tener muchas pistas, y puede que no sea posible enrutarlos a menos que haya suficientes capas disponibles.</li><li><strong><em>Considere el método de montaje de la placa.</em></strong>&nbsp;&nbsp; Es necesario considerar cómo se montará la placa de circuito impreso al comienzo del diseño.&nbsp;Los diferentes métodos de montaje pueden requerir que diferentes áreas de la tabla se mantengan libres, o pueden ocupar diferentes áreas de la tabla.</li></ul>
+
+
+
+<p>Si te ha gustado este artículo de <a href="https://www.miescapedigital.com/">miescapedigital.com</a>&nbsp;activa las notificaciones y únete a nuestro canal de&nbsp;<a href="https://t.me/escapedigital">Telegram</a>, siguenos en&nbsp;<a href="https://twitter.com/EscapeDigitall">Twitter</a>&nbsp;,&nbsp;<a href="https://www.instagram.com/escapedigital/">instagram</a>&nbsp;&nbsp;y suscríbete &nbsp;&nbsp;en&nbsp;<a href="https://www.youtube.com/channel/UCeDa5fGa6kEZ1c3PeILYqOw">Youtube</a>&nbsp;o únete a nuestro canal de app para&nbsp;<a href="https://t.me/EscapeDigitalWinApps">Windows.&nbsp;</a></p><div class="google-auto-placed ap_container" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-4158089508640935" data-adsbygoogle-status="done" style="display: block; margin: auto; background-color: transparent; height: 0px;" data-ad-status="unfilled"><div id="aswift_6_host" style="border: none; height: 0px; width: 924px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_6" name="aswift_6" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 924px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="924" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(5).html" data-google-container-id="a!7" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNORgN3Vk4wDFRtfnQkdLm0bRg" data-load-complete="true"></iframe></div></ins></div>
+
+
+
+<p><br></p>
+
+<!-- WP QUADS Content Ad Plugin v. 2.0.87.1 -->
+<div class="quads-location quads-ad35517 " id="quads-ad35517" style="float: none; margin: 0px 3px 3px; padding: 0px; visibility: visible;" data-lazydelay="3000">
+
+ <!-- WP QUADS - Quick AdSense Reloaded v.2.0.87.1 Content AdSense async --> 
+
+<div id="quads-ad6-place" class="quads-ll">
+            <ins style="display:block;min-height:50px" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w" data-ad-client="ca-pub-4158089508640935" data-ad-slot="5330584664"><span></span></ins></div>
+                 <script>
+                 instant= new adsenseLoader( '#quads-ad6-place', {
+        onLoad: function( ad ){
+            if (ad.classList.contains("quads-ll")) {
+                ad.classList.remove("quads-ll");
+            }
+          }   
+        });</script>
+ <!-- end WP QUADS --> 
+
+
+</div>
+<p></p>
+	</div> <!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<span class="tags-links">Tagged <a href="https://miescapedigital.com/tag/pcb/" rel="tag">PCB</a></span>	</footer><!-- .entry-footer -->
+	
+<div class="mt-author-box">
+			<div itemprop="image" class="mt-author__avatar">
+			<img alt="" src="./img01_files/8754eb5417eced85a32c3e8c05dc83bb.png" class="avatar avatar-96 photo" height="96" width="96">		</div><!-- .mt-author-avatar -->
+	
+	<div class="mt-author-info">
+						<h5 itemprop="name" class="mt-author-name"><a href="https://miescapedigital.com/author/fabian-valencia/" title="Entradas de FV" rel="author">FV</a></h5>
+		
+					<div class="mt-author-bio">
+				Diseñador gráfico y web, con ganas de trabajar y aprender todo lo posible de este campo tan variado. Creativo tanto en la vida laboral como personal. Diseñar es el arte de transmitir gráficamente lo que uno imagina. Imagina, crea, diseña.			</div><!-- .mt-author-bio -->
+		
+		<div class="mt-author-meta">
+					</div><!-- .mt-author-meta -->
+	</div><!-- .mt-author-info -->
+</div><!-- .mt-author-bio --></article><!-- #post-15001 -->
+	<nav class="navigation post-navigation" aria-label="Entradas">
+		<h2 class="screen-reader-text">Navegación de entradas</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://miescapedigital.com/estrenos-de-netflix-para-el-mes-de-mayo-2019/" rel="prev">Estrenos de Netflix para el mes de Mayo 2019</a></div><div class="nav-next"><a href="https://miescapedigital.com/rumores-de-ios-13-fecha-de-lanzamiento-nuevas-caracteristicas-y-mas/" rel="next">Rumores de iOS 13: Fecha de lanzamiento, nuevas características y más</a></div></div>
+	</nav>
+<div id="comments" class="comments-area">
+	
+            <script type="text/javascript">
+                window.wpsf_timestamp_enabled = true;
+                window.wpsf_threshold = 10000;
+                window.wpsf_message = 'This site is protected by an anti-spam feature that requires {0} seconds to have elapsed between the page load and the form submission. \n\n Please close this alert window.  The form may be resubmitted successfully in {1} seconds.';
+
+                String.prototype.format = function (args) {
+                    var str = this;
+                    return str.replace(String.prototype.format.regex, function (item) {
+                        var intVal = parseInt(item.substring(1, item.length - 1));
+                        var replace;
+                        if (intVal >= 0) {
+                            replace = args[intVal];
+                        } else if (intVal === -1) {
+                            replace = "{";
+                        } else if (intVal === -2) {
+                            replace = "}";
+                        } else {
+                            replace = "";
+                        }
+                        return replace;
+                    });
+                };
+                String.prototype.format.regex = new RegExp("{-?[0-9]+}", "g");
+            </script>
+        	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Deja una respuesta <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://miescapedigital.com/pautas-de-diseno-de-pcb/#respond" style="display:none;">Cancelar la respuesta</a></small></h3><form action="https://miescapedigital.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate=""><p class="comment-notes"><span id="email-notes">Tu dirección de correo electrónico no será publicada.</span> <span class="required-field-message">Los campos obligatorios están marcados con <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comentario <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required=""></textarea></p><p class="comment-form-author"><label for="author">Nombre <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required=""></p>
+<p class="comment-form-email"><label for="email">Correo electrónico <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required=""></p>
+<p class="comment-form-url"><label for="url">Web</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url"></p>
+                        <script type="text/javascript">
+                            window.wpsf_javascript_enabled = true;
+                        </script>
+                                                <script type="text/javascript">
+                            window.wpsf_timestamp_enabled = true;
+                        </script>
+                                                    <input type="text" id="more_comment" aria-required="true" size="30" value="" name="more_comment" style="display: none;">
+                                                <p id="wpsf_p" style="clear:both;"><div class="g-recaptcha" data-sitekey="6LdQmCQUAAAAAEn_HeVGDbrXcf4BWHZu5peNKfRK"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-vtg93vj91wxu" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./img01_files/anchor.html"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./img01_files/saved_resource(1).html"></iframe></div></p>
+                        <script type="text/javascript">
+                            window.wpsf_recaptcha_enabled = true;
+                            window.captcha_site_key = "6LdQmCQUAAAAAEn_HeVGDbrXcf4BWHZu5peNKfRK";
+                        </script>
+                        <noscript>Please enable javascript in order to be allowed to comment</noscript>
+                        <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Publicar el comentario"> <input type="hidden" name="comment_post_ID" value="15001" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><input type="hidden" name="wpsfTS1" id="wpsfTS1" value="1742302252852"><input type="hidden" name="wpsfTS2" id="wpsfTS2" value="1"></form>	</div><!-- #respond -->
+	
+</div><!-- #comments -->	<section class="mt-single-related-posts">
+		<h2 class="mt-related-post-title">Related Posts</h2>
+
+		<div class="mt-related-posts-wrapper">
+			
+<article id="post-35643" class="has-thumbnail wow fadeInUp post-35643 post type-post status-publish format-standard has-post-thumbnail hentry category-microsoft category-noticias category-tutoriales tag-powerpoint" style="visibility: hidden; animation-name: none;">
+	<div class="thumb-cat-wrap">
+			<div class="post-thumbnail">
+				<img width="1072" height="653" src="./img01_files/Screenshot_20230523-111852_Microsoft-365-Office.jpg" class="attachment-color-blog-full-width size-color-blog-full-width wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://miescapedigital.com/wp-content/uploads/2023/05/Screenshot_20230523-111852_Microsoft-365-Office.jpg 1080w, https://miescapedigital.com/wp-content/uploads/2023/05/Screenshot_20230523-111852_Microsoft-365-Office-1024x624.jpg 1024w, https://miescapedigital.com/wp-content/uploads/2023/05/Screenshot_20230523-111852_Microsoft-365-Office-150x91.jpg 150w" sizes="auto, (max-width: 1072px) 100vw, 1072px">			</div><!-- .post-thumbnail -->
+
+					<div class="post-cats-list">
+										<span class="category-button cb-cat-5"><a href="https://miescapedigital.com/category/microsoft/">Microsoft</a></span>
+										<span class="category-button cb-cat-526"><a href="https://miescapedigital.com/category/mas/noticias/">Noticias</a></span>
+										<span class="category-button cb-cat-13"><a href="https://miescapedigital.com/category/tutoriales/">Tutoriales</a></span>
+							</div><!-- .post-cats-list --></div><!-- .thumb-cat-wrap -->		<div class="entry-cat">
+			<span class="posted-on"><a href="https://miescapedigital.com/trucos-de-powerpoint-domina-la-presentacion-como-un-experto/" rel="bookmark"><time class="entry-date published" datetime="2025-02-26T09:32:13-05:00">26/02/2025</time><time class="updated" datetime="2025-02-26T09:32:46-05:00">26/02/2025</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="https://miescapedigital.com/author/fabian-valencia/">FV</a></span></span>		</div><!-- .entry-meta -->
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://miescapedigital.com/trucos-de-powerpoint-domina-la-presentacion-como-un-experto/" rel="bookmark">Trucos de PowerPoint: Domina la Presentación como un Experto</a></h2>	</header><!-- .entry-header -->	
+
+	<footer class="entry-footer">
+		<span class="tags-links">Tagged <a href="https://miescapedigital.com/tag/powerpoint/" rel="tag">PowerPoint</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-35643 -->
+<article id="post-35631" class="has-thumbnail wow fadeInUp post-35631 post type-post status-publish format-standard has-post-thumbnail hentry category-tutoriales tag-trucos-de-microsoft-word" style="visibility: hidden; animation-name: none;">
+	<div class="thumb-cat-wrap">
+			<div class="post-thumbnail">
+				<img width="1160" height="653" src="./img01_files/EnumerarpáginasenWord4.jpg" class="attachment-color-blog-full-width size-color-blog-full-width wp-post-image" alt="Enumerar páginas en Word 4" decoding="async" loading="lazy" srcset="https://miescapedigital.com/wp-content/uploads/2017/03/EnumerarpáginasenWord4.jpg 1600w, https://miescapedigital.com/wp-content/uploads/2017/03/EnumerarpáginasenWord4-150x84.jpg 150w, https://miescapedigital.com/wp-content/uploads/2017/03/EnumerarpáginasenWord4-1024x576.jpg 1024w" sizes="auto, (max-width: 1160px) 100vw, 1160px">			</div><!-- .post-thumbnail -->
+
+					<div class="post-cats-list">
+										<span class="category-button cb-cat-13"><a href="https://miescapedigital.com/category/tutoriales/">Tutoriales</a></span>
+							</div><!-- .post-cats-list --></div><!-- .thumb-cat-wrap -->		<div class="entry-cat">
+			<span class="posted-on"><a href="https://miescapedigital.com/trucos-de-microsoft-word-aumenta-tu-productividad/" rel="bookmark"><time class="entry-date published" datetime="2025-02-18T08:28:30-05:00">18/02/2025</time><time class="updated" datetime="2025-02-18T08:28:38-05:00">18/02/2025</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="https://miescapedigital.com/author/fabian-valencia/">FV</a></span></span>		</div><!-- .entry-meta -->
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://miescapedigital.com/trucos-de-microsoft-word-aumenta-tu-productividad/" rel="bookmark">Trucos de Microsoft Word: Aumenta tu productividad</a></h2>	</header><!-- .entry-header -->	
+
+	<footer class="entry-footer">
+		<span class="tags-links">Tagged <a href="https://miescapedigital.com/tag/trucos-de-microsoft-word/" rel="tag">Trucos de Microsoft Word</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-35631 -->
+<article id="post-35620" class="has-thumbnail wow fadeInUp post-35620 post type-post status-publish format-standard has-post-thumbnail hentry category-noticias category-tutoriales tag-excel" style="visibility: hidden; animation-name: none;">
+	<div class="thumb-cat-wrap">
+			<div class="post-thumbnail">
+				<img width="1160" height="649" src="./img01_files/Curso-completo-de-Excel.jpg" class="attachment-color-blog-full-width size-color-blog-full-width wp-post-image" alt="Curso completo de Excel" decoding="async" loading="lazy" srcset="https://miescapedigital.com/wp-content/uploads/2020/03/Curso-completo-de-Excel.jpg 1248w, https://miescapedigital.com/wp-content/uploads/2020/03/Curso-completo-de-Excel-1024x573.jpg 1024w, https://miescapedigital.com/wp-content/uploads/2020/03/Curso-completo-de-Excel-150x84.jpg 150w" sizes="auto, (max-width: 1160px) 100vw, 1160px">			</div><!-- .post-thumbnail -->
+
+					<div class="post-cats-list">
+										<span class="category-button cb-cat-526"><a href="https://miescapedigital.com/category/mas/noticias/">Noticias</a></span>
+										<span class="category-button cb-cat-13"><a href="https://miescapedigital.com/category/tutoriales/">Tutoriales</a></span>
+							</div><!-- .post-cats-list --></div><!-- .thumb-cat-wrap -->		<div class="entry-cat">
+			<span class="posted-on"><a href="https://miescapedigital.com/los-mejores-trucos-de-excel-para-ahorrar-tiempo-y-mejorar-tu-productividad/" rel="bookmark"><time class="entry-date published" datetime="2025-02-17T01:15:00-05:00">17/02/2025</time><time class="updated" datetime="2025-02-16T23:23:13-05:00">16/02/2025</time></a></span><span class="byline"><span class="author vcard"><a class="url fn n" href="https://miescapedigital.com/author/fabian-valencia/">FV</a></span></span>		</div><!-- .entry-meta -->
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="https://miescapedigital.com/los-mejores-trucos-de-excel-para-ahorrar-tiempo-y-mejorar-tu-productividad/" rel="bookmark">Los Mejores Trucos de Excel para Ahorrar Tiempo y Mejorar tu Productividad</a></h2>	</header><!-- .entry-header -->	
+
+	<footer class="entry-footer">
+		<span class="tags-links">Tagged <a href="https://miescapedigital.com/tag/excel/" rel="tag">Excel</a></span>	</footer><!-- .entry-footer -->
+</article><!-- #post-35620 -->		</div><!-- .mt-related-posts-wrapper -->
+	</section><!-- .mt-single-related-posts -->
+		</main><!-- #main -->
+	</div><!-- #primary -->
+	<aside id="secondary" class="widget-area" style="height: auto !important;">
+	<section id="block-41" class="widget widget_block widget_text">
+<p>Escape Digital es el blog donde encontrarás todo lo relacionado con el mundo de la tecnología en español. Contáctanos: contacto@miescapedigital.com</p>
+</section><div class="google-auto-placed" style="width: 100%; height: auto; clear: none; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-4158089508640935" data-adsbygoogle-status="done" style="display: block; margin: 10px auto 40px; background-color: transparent; height: 0px;" data-ad-status="unfilled"><div id="aswift_7_host" style="border: none; height: 0px; width: 356px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_7" name="aswift_7" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 356px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="356" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(6).html" data-google-container-id="a!8" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CIv-3dzVk4wDFedvnQkdg3Y4vw" data-load-complete="true"></iframe></div></ins></div><section id="block-57" class="widget widget_block"><script async="" src="./img01_files/f(3).txt" crossorigin="anonymous" data-checked-head="true"></script>
+<ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-format="autorelaxed" data-ad-client="ca-pub-4158089508640935" data-ad-slot="8783343427" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_2_host" style="border: none; height: 0px; width: 315px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_2" name="aswift_2" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 315px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="315" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(7).html" data-google-container-id="a!3" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CIurwtvVk4wDFa9cnQkdCJ8mXA" data-load-complete="true"></iframe></div></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></section><section id="block-33" class="widget widget_block"><a href="https://macpaw.audw.net/c/387528/1966489/1733" target="_top" id="1966489"><img loading="lazy" decoding="async" src="./img01_files/1733-1966489" border="0" alt="" width="302" height="602"></a><img loading="lazy" decoding="async" height="0" width="0" src="./img01_files/1733" style="position:absolute;visibility:hidden;" border="0"></section><div class="google-auto-placed" style="width: 100%; height: auto; clear: none; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-4158089508640935" data-adsbygoogle-status="done" style="display: block; margin: 10px auto 40px; background-color: transparent; height: 0px;" data-ad-status="unfilled"><div id="aswift_8_host" style="border: none; height: 0px; width: 356px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_8" name="aswift_8" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 356px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="356" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(8).html" data-google-container-id="a!9" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CL3N3tzVk4wDFd1JnQkdFVUq9g" data-load-complete="true"></iframe></div></ins></div><section id="block-34" class="widget widget_block"><a href="https://setapp.sjv.io/c/387528/1617022/5114" target="_top" id="1617022"><img loading="lazy" decoding="async" src="./img01_files/5114-1617022" border="0" alt="" width="300" height="600"></a><img loading="lazy" decoding="async" height="0" width="0" src="./img01_files/5114" style="position:absolute;visibility:hidden;" border="0"></section><div class="google-auto-placed" style="width: 100%; height: auto; clear: none; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-4158089508640935" data-adsbygoogle-status="done" style="display: block; margin: 10px auto 40px; background-color: transparent; height: 0px;" data-ad-status="unfilled"><div id="aswift_9_host" style="border: none; height: 0px; width: 356px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_9" name="aswift_9" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 356px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="356" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(9).html" data-google-container-id="a!a" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CNaEhd3Vk4wDFfZanQkdBB8AWg" data-load-complete="true"></iframe></div></ins></div><section id="block-35" class="widget widget_block"><script async="" src="./img01_files/f(3).txt" crossorigin="anonymous" data-checked-head="true"></script>
+<ins class="adsbygoogle" style="display: block; height: 0px;" data-ad-format="autorelaxed" data-ad-client="ca-pub-4158089508640935" data-ad-slot="8783343427" data-adsbygoogle-status="done" data-ad-status="unfilled"><div id="aswift_3_host" style="border: none; height: 0px; width: 315px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;"><iframe id="aswift_3" name="aswift_3" browsingtopics="true" style="left: 0px; position: absolute; top: 0px; border: 0px; width: 315px; height: 0px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="315" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(10).html" data-google-container-id="a!4" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="CN-d5tvVk4wDFUtGnQkdIxYPNQ" data-load-complete="true"></iframe></div></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></section><section id="custom_html-10" class="widget_text widget widget_custom_html"><h4 class="widget-title">BUSCADOR GOOGLE</h4><div class="textwidget custom-html-widget"><script async="" src="./img01_files/f(4).txt"></script>
+<div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div class="gsc-control-wrapper-cse" dir="ltr"><form class="gsc-search-box gsc-search-box-tools" accept-charset="utf-8"><table cellspacing="0" cellpadding="0" role="presentation" class="gsc-search-box"><tbody><tr><td class="gsc-input"><div class="gsc-input-box" id="gsc-iw-id1"><table cellspacing="0" cellpadding="0" role="presentation" id="gs_id50" class="gstl_50 gsc-input" style="width: 100%; padding: 0px;"><tbody><tr><td id="gs_tti50" class="gsib_a"><input autocomplete="off" type="text" size="10" class="gsc-input" name="search" title="search" aria-label="search" id="gsc-i-id1" style="width: 100%; padding: 0px; border: none; margin: 0px; height: auto; background: url(&quot;https://www.google.com/cse/static/images/1x/en/branding.png&quot;) left center no-repeat rgb(255, 255, 255); outline: none;" dir="ltr" spellcheck="false"></td><td class="gsib_b"><div class="gsst_b" id="gs_st50" dir="ltr"><a class="gsst_a" href="javascript:void(0)" style="display: none;" title="Clear search box" role="button"><span class="gscb_a" id="gs_cb50" aria-hidden="true">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><button class="gsc-search-button gsc-search-button-v2"><svg width="13" height="13" viewBox="0 0 13 13"><title>search</title><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></button></td><td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td></tr></tbody></table></form><div class="gsc-results-wrapper-nooverlay"><div class="gsc-positioningWrapper"><div class="gsc-tabsAreaInvisible"><div aria-label="refinement" role="tab" class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom Search</div><span class="gs-spacer"> </span></div></div><div class="gsc-positioningWrapper"><div class="gsc-refinementsAreaInvisible"></div></div><div class="gsc-above-wrapper-area-invisible"><div class="gsc-above-wrapper-area-backfill-container"></div><table cellspacing="0" cellpadding="0" role="presentation" class="gsc-above-wrapper-area-container"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><div><div class="gsc-expansionArea"></div></div></div></div></div></div></div></div></div></div></section></aside><!-- #secondary --></div><!-- .mt-page-content-wrapper -->
+	    </div> <!-- mt-container -->
+	</div><!-- #content -->
+
+    <div class="google-auto-placed" style="width: 100%; height: auto; clear: none; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-4158089508640935" data-adsbygoogle-status="done" style="display: block; margin: 70px auto 10px; background-color: transparent; height: 280px;"><div id="aswift_10_host" style="border: none; height: 280px; width: 1200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins></div><footer itemscope="" id="colophon" class="site-footer">
+<div id="top-footer" class="footer-widgets-wrapper footer-column-three mt-clearfix">
+	<div class="mt-container">
+		<div class="footer-widgets-area mt-clearfix">
+			<div class="mt-footer-widget-wrapper mt-column-wrapper mt-clearfix">
+				<div class="mt-footer-widget wow fadeInLeft" data-wow-duration="0.3s" style="visibility: hidden; animation-duration: 0.3s; animation-name: none;">
+					<section id="custom_html-1" class="widget_text widget widget_custom_html"><h4 class="widget-title">SOBRE NOSOTROS</h4><div class="textwidget custom-html-widget">Escape Digital es el blog donde encontrarás todo lo relacionado con el mundo de la tecnología en español. </div></section><section id="custom_html-5" class="widget_text widget widget_custom_html"><h4 class="widget-title">Contáctanos</h4><div class="textwidget custom-html-widget">E-mail: contacto@miescapedigital.com
+
+WhatsApp: +57 3052538924</div></section>				</div>
+
+									<div class="mt-footer-widget wow fadeInLeft" data-woww-duration="0.6s" style="visibility: hidden; animation-name: none;">
+						<section id="media_image-5" class="widget widget_media_image"><h4 class="widget-title">Invenciones Poeticas</h4><a href="https://invencionespoeticas.com/"><img width="300" height="150" src="./img01_files/invenciones-poeticas.png" class="image wp-image-35319  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://miescapedigital.com/wp-content/uploads/2025/01/invenciones-poeticas.png 300w, https://miescapedigital.com/wp-content/uploads/2025/01/invenciones-poeticas-150x75.png 150w" sizes="auto, (max-width: 300px) 100vw, 300px"></a></section><section id="media_image-7" class="widget widget_media_image"><h4 class="widget-title">Lápiz Gráfico</h4><a href="http://lapizgrafico.com/"><img width="265" height="90" src="./img01_files/lapiz-grafico.png" class="image wp-image-35320  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://miescapedigital.com/wp-content/uploads/2025/01/lapiz-grafico.png 265w, https://miescapedigital.com/wp-content/uploads/2025/01/lapiz-grafico-150x51.png 150w" sizes="auto, (max-width: 265px) 100vw, 265px"></a></section>					</div>
+				
+									<div class="mt-footer-widget wow fadeInLeft" data-wow-duration="0.9s" style="visibility: hidden; animation-duration: 0.9s; animation-name: none;">
+						
+		<section id="recent-posts-8" class="widget widget_recent_entries">
+		<h4 class="widget-title">Recientes</h4>
+		<ul>
+											<li>
+					<a href="https://miescapedigital.com/cual-es-la-utilidad-de-los-bonos-de-bienvenida-en-las-casas-de-apuestas/">¿Cuál es la utilidad de los bonos de bienvenida en las casas de apuestas?</a>
+									</li>
+											<li>
+					<a href="https://miescapedigital.com/diseno-de-paginas-web-en-merida-yucatan/">Diseño de Páginas Web en Mérida, Yucatán</a>
+									</li>
+											<li>
+					<a href="https://miescapedigital.com/como-tener-el-menu-contextual-clasico-de-windows-11/">Como tener el menú contextual clásico de windows 11</a>
+									</li>
+											<li>
+					<a href="https://miescapedigital.com/tokyvideo/">TokyVideo</a>
+									</li>
+					</ul>
+
+		</section>					</div>
+				
+							</div><!-- .mt-footer-widget-wrapper -->
+		</div><!-- .footer-widgets-area -->
+	</div><!-- .mt-container -->
+</div><!-- .footer-widgets-wrapper -->		<div id="bottom-footer">
+            <div class="mt-container">
+        		        				<nav id="footer-navigation" class="footer-navigation">
+    						<div class="menu-f-container"><ul id="footer-menu" class="menu"><li id="menu-item-32940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32940"><a href="https://miescapedigital.com/contactanos/">Contáctanos</a></li>
+<li id="menu-item-32942" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32942"><a href="https://miescapedigital.com/terminos-y-condiciones/">Términos y Condiciones</a></li>
+<li id="menu-item-32938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32938"><a href="https://miescapedigital.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-32939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32939"><a href="https://miescapedigital.com/cookie-policy/">Cookie Policy</a></li>
+<li id="menu-item-32941" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32941"><a href="https://miescapedigital.com/contratar-publicidad-2/">Contratar Publicidad</a></li>
+<li id="menu-item-32937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32937"><a href="https://miescapedigital.com/politica-de-cookie-ue/">Política de cookie (UE)</a></li>
+</ul></div>        				</nav><!-- #footer-navigation -->
+        		
+        		<div class="site-info">
+        			<span class="mt-copyright-text">
+        				Escape Digital © 2025        			</span>
+        			<span class="sep"> | </span>
+        				Theme: Color Blog by <a itemprop="url" href="https://mysterythemes.com/wp-themes/color-blog" rel="noopener noreferrer nofollow">Mystery Themes</a>.        		</div><!-- .site-info -->
+            </div><!-- .mt-container -->
+        </div><!-- #bottom-footer -->
+</footer><!-- #colophon --><div id="mt-scrollup" class="animated arrow-hide" style="display: none;">Back To Top</div>	
+</div><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" browsingtopics="true" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="./img01_files/ads(11).html" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><!-- #page -->
+
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-manage-consent manage-consent-1 cmplz-show">Administrar consentimiento</button>
+
+</div><script>/* <![CDATA[ */var quadsOptions ={"quadsChoice":"ad_blocker_message","page_redirect":"","allow_cookies":"2"}/* ]]> */</script><script>
+
+   if(typeof quadsOptions !== 'undefined' && typeof wpquads_adblocker_check_2 
+  === 'undefined' && quadsOptions.quadsChoice == 'ad_blocker_message'){
+  var addEvent1 = function (obj, type, fn) {
+      if (obj.addEventListener)
+          obj.addEventListener(type, fn, false);
+      else if (obj.attachEvent)
+          obj.attachEvent('on' + type, function () {
+              return fn.call(obj, window.event);
+          });
+  };
+   addEvent1(window, 'load', function () {
+      if (typeof wpquads_adblocker_check_2 === "undefined" || wpquads_adblocker_check_2 === false) {
+
+          highlight_adblocked_ads();
+      }
+  });
+
+   function highlight_adblocked_ads() {
+      try {
+          var ad_wrappers = document.querySelectorAll('div[id^="quads-ad"]')
+      } catch (e) {
+          return;
+      }
+
+      for (i = 0; i < ad_wrappers.length; i++) {
+          ad_wrappers[i].className += ' quads-highlight-adblocked';
+          ad_wrappers[i].className = ad_wrappers[i].className.replace('quads-location', '');
+          ad_wrappers[i].setAttribute('style', 'display:block !important');
+      }
+  }
+ }
+
+(function() {
+//Adblocker Notice Script Starts Here
+var curr_url = window.location.href;
+var red_ulr = localStorage.getItem('curr');
+var modal = document.getElementById("quads-myModal");
+var quadsClosebtn = document.getElementsByClassName("quads-closebtn")[0];
+var quadsModalContent = document.getElementsByClassName("quads-modal-content")[0];
+var quads_model_  = document.getElementById("quads-myModal_");
+var quadsAllowedCookie =  quadsgetCookie('quadsAllowedCookie');
+var quadsNotice_bar = document.getElementById("quads_notice_bar");
+var quadsNotice_bar_sticky = document.getElementById("quads_notice_bar_sticky");
+
+if (quadsClosebtn) {
+    quadsClosebtn.addEventListener("click", function(){
+        if( quadsClosebtn ){
+            quads_model_.style.display = "none";
+        }
+    })
+} 
+
+window.onclick = function(event) {
+  if (event.target == quads_model_) {
+    quads_model_.style.display = "none";
+    document.cookie = "quads_prompt_close="+new Date();
+    quadssetCookie('quadsCookie', 'true', 1, '/');
+  }
+}
+
+if(quadsOptions.quadsChoice == 'bar'){
+    if(quadsNotice_bar.value == 2){
+        modal.style.top = "0";
+    } else {
+        modal.style.bottom = "0";
+    }
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if(prevScrollpos > currentScrollPos){
+            if(quadsNotice_bar.value == 2){
+                modal.style.top = "0px";
+            }
+            if(quadsNotice_bar.value == 1){
+                modal.style.bottom = "0px";
+            }
+        } else{
+            if(quadsNotice_bar_sticky.value != 1 && quadsNotice_bar.value == 2){
+                modal.style.top = "-90px";
+            }
+            if(quadsNotice_bar_sticky.value != 1 && quadsNotice_bar.value == 1){
+                modal.style.bottom = "-90px";
+            }
+        }
+        prevScrollpos = currentScrollPos;
+    }
+}
+
+if(typeof quadsOptions !== 'undefined'){
+    var quads_model_  = document.getElementById("quads-myModal_");
+    if(quads_model_){ quads_model_.style.display = "block"; }
+
+  if(quadsAllowedCookie!=quadsOptions.allow_cookies){
+    quadssetCookie('quadsCookie', '', -1, '/');
+    quadssetCookie('quadsAllowedCookie', quadsOptions.allow_cookies, 1, '/');
+  }
+
+  if(quadsOptions.allow_cookies == 2){
+    if( quadsOptions.quadsChoice == 'bar' || quadsOptions.quadsChoice == 'popup'){
+        modal.style.display = "block";
+        quadssetCookie('quadsCookie', '', -1, '/');
+    }
+    
+    if(quadsOptions.quadsChoice == 'page_redirect' && quadsOptions.page_redirect !="undefined"){
+        if(red_ulr==null || curr_url!=quadsOptions.page_redirect){
+        window.location = quadsOptions.page_redirect;
+        localStorage.setItem('curr',quadsOptions.page_redirect);
+      }
+    }
+  }else{
+    var adsCookie = quadsgetCookie('quadsCookie');
+    if(adsCookie==false) {
+      if( quadsOptions.quadsChoice == 'bar' || quadsOptions.quadsChoice == 'popup'){
+          modal.style.display = "block";
+      }
+      if(quadsOptions.quadsChoice == 'page_redirect' && quadsOptions.page_redirect !="undefined"){
+        window.location = quadsOptions.page_redirect;
+        quadssetCookie('quadsCookie', true, 1, '/');
+      }
+    }else{
+      modal.style.display = "none";
+    }
+  }
+
+}
+
+var span = document.getElementsByClassName("quads-cls-notice")[0];
+if(span){
+  span.onclick = function() {
+    modal.style.display = "none";
+    document.cookie = "quads_prompt_close="+new Date();
+    quadssetCookie('quadsCookie', 'true', 1, '/');
+  }
+}
+
+})();
+function quadsgetCookie(cname){
+    var name = cname + '=';
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i].trim();
+        if (c.indexOf(name) === 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return false;
+}
+function quadssetCookie(cname, cvalue, exdays, path){
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+//Adblocker Notice Script Ends Here
+</script>
+
+<script type="text/javascript" src="./img01_files/wp-spamfighter.js.download" id="wpsf_wp-spam-fighter-js"></script>
+<script type="text/javascript" src="./img01_files/imagesloaded.min.js.download" id="imagesloaded-js"></script>
+<script type="text/javascript" src="./img01_files/masonry.min.js.download" id="masonry-js"></script>
+<script type="text/javascript" src="./img01_files/frontend.js.download" id="wpblog-post-layouts-public-script-js"></script>
+<script type="text/javascript" id="wpmagazine-modules-lite-public-script-js-extra">
+/* <![CDATA[ */
+var wpmagazineModulesObject = {"ajax_url":"https:\/\/miescapedigital.com\/wp-admin\/admin-ajax.php","_wpnonce":"1bd67ca6ea"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./img01_files/frontend(1).js.download" id="wpmagazine-modules-lite-public-script-js"></script>
+<script type="text/javascript" src="./img01_files/slick.min.js.download" id="slick-slider-js"></script>
+<script type="text/javascript" src="./img01_files/jquery.marquee.min.js.download" id="jquery-marquee-js"></script>
+<script type="text/javascript" src="./img01_files/mt-combine-scripts.js.download" id="color-blog-combine-scripts-js"></script>
+<script type="text/javascript" src="./img01_files/navigation.js.download" id="color-blog-navigation-js"></script>
+<script type="text/javascript" src="./img01_files/skip-link-focus-fix.js.download" id="color-blog-skip-link-focus-fix-js"></script>
+<script type="text/javascript" id="color-blog-custom-scripts-js-extra">
+/* <![CDATA[ */
+var color_blogObject = {"menu_sticky":"on","wow_effect":"on"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./img01_files/mt-custom-scripts.js.download" id="color-blog-custom-scripts-js"></script>
+<script type="text/javascript" src="./img01_files/comment-reply.min.js.download" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
+<script type="text/javascript" id="jetpack-stats-js-before">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"94524711\",\"post\":\"15001\",\"tz\":\"-5\",\"srv\":\"miescapedigital.com\",\"j\":\"1:14.4\"}") ]);
+_stq.push([ "clickTrackerInit", "94524711", "15001" ]);
+/* ]]> */
+</script>
+
+<script type="text/javascript" id="cmplz-cookiebanner-js-extra">
+/* <![CDATA[ */
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"64","version":"7.0.5","store_consent":"","do_not_track_enabled":"","consenttype":"optin","region":"eu","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"1","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/miescapedigital.com\/wp-json\/complianz\/v1\/","locale":"lang=es&locale=es_ES","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"27","cookie_path":"\/","categories":{"statistics":"estad\u00edsticas","marketing":"m\u00e1rketing"},"tcf_active":"","placeholdertext":"Haz clic para aceptar cookies de marketing y permitir este contenido","css_file":"https:\/\/miescapedigital.com\/wp-content\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=64","page_links":{"eu":{"cookie-statement":{"title":"Pol\u00edtica de cookie ","url":"https:\/\/miescapedigital.com\/politica-de-cookie-ue\/"},"privacy-statement":{"title":"Politica de Privacidad","url":"https:\/\/miescapedigital.com\/politica-de-privacidad\/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Haz clic para aceptar cookies de marketing y permitir este contenido"};
+/* ]]> */
+</script>
+<script defer="" type="text/javascript" src="./img01_files/complianz.min.js.download" id="cmplz-cookiebanner-js"></script>
+<script type="text/javascript" id="cmplz-cookiebanner-js-after">
+/* <![CDATA[ */
+	let cmplzBlockedContent = document.querySelector('.cmplz-blocked-content-notice');
+	if ( cmplzBlockedContent) {
+	        cmplzBlockedContent.addEventListener('click', function(event) {
+            event.stopPropagation();
+        });
+	}
+    
+/* ]]> */
+</script>
+<script type="text/javascript" src="./img01_files/ads.js.download" id="quads-ads-js"></script>
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;"></ins><table cellspacing="0" cellpadding="0" role="presentation" class="gstl_50 gssb_c" style="width: 134px; display: none; top: 3674px; left: 1044px; position: absolute;"><tbody><tr><td class="gssb_f"></td><td class="gssb_e" style="width: 100%;"></td></tr></tbody></table><iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;" src="./img01_files/saved_resource(2).html"></iframe><div class="google-auto-placed" style="width: 100%; height: auto; clear: both; text-align: center;"><ins data-ad-format="auto" class="adsbygoogle adsbygoogle-noablate" data-ad-client="ca-pub-4158089508640935" data-adsbygoogle-status="done" style="display: block; margin: 10px auto; background-color: transparent; height: 280px;"><div id="aswift_11_host" style="border: none; height: 280px; width: 1200px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"></div></ins></div><div style="color-scheme: initial !important; forced-color-adjust: initial !important; mask: initial !important; math-depth: initial !important; position: initial !important; position-anchor: initial !important; text-size-adjust: initial !important; appearance: initial !important; color: initial !important; font: initial !important; font-palette: initial !important; font-synthesis: initial !important; position-area: initial !important; text-orientation: initial !important; text-rendering: initial !important; text-spacing-trim: initial !important; -webkit-font-smoothing: initial !important; -webkit-locale: initial !important; -webkit-text-orientation: initial !important; -webkit-writing-mode: initial !important; writing-mode: initial !important; zoom: initial !important; accent-color: initial !important; place-content: initial !important; place-items: initial !important; place-self: initial !important; alignment-baseline: initial !important; anchor-name: initial !important; anchor-scope: initial !important; animation-composition: initial !important; animation: initial !important; app-region: initial !important; aspect-ratio: initial !important; backdrop-filter: initial !important; backface-visibility: initial !important; background: initial !important; background-blend-mode: initial !important; baseline-shift: initial !important; baseline-source: initial !important; block-size: initial !important; border-block: initial !important; border: initial !important; border-radius: initial !important; border-collapse: initial !important; border-end-end-radius: initial !important; border-end-start-radius: initial !important; border-inline: initial !important; border-start-end-radius: initial !important; border-start-start-radius: initial !important; inset: initial !important; box-decoration-break: initial !important; box-shadow: initial !important; box-sizing: initial !important; break-after: initial !important; break-before: initial !important; break-inside: initial !important; buffered-rendering: initial !important; caption-side: initial !important; caret-color: initial !important; clear: initial !important; clip: initial !important; clip-path: initial !important; clip-rule: initial !important; color-interpolation: initial !important; color-interpolation-filters: initial !important; color-rendering: initial !important; columns: initial !important; column-fill: initial !important; gap: initial !important; column-rule: initial !important; column-span: initial !important; contain: initial !important; contain-intrinsic-block-size: initial !important; contain-intrinsic-size: initial !important; contain-intrinsic-inline-size: initial !important; container: initial !important; content: initial !important; content-visibility: initial !important; counter-increment: initial !important; counter-reset: initial !important; counter-set: initial !important; cursor: initial !important; cx: initial !important; cy: initial !important; d: initial !important; display: initial !important; dominant-baseline: initial !important; empty-cells: initial !important; field-sizing: initial !important; fill: initial !important; fill-opacity: initial !important; fill-rule: initial !important; filter: initial !important; flex: initial !important; flex-flow: initial !important; float: initial !important; flood-color: initial !important; flood-opacity: initial !important; grid: initial !important; grid-area: initial !important; height: initial !important; hyphenate-character: initial !important; hyphenate-limit-chars: initial !important; hyphens: initial !important; image-orientation: initial !important; image-rendering: initial !important; initial-letter: initial !important; inline-size: initial !important; inset-block: initial !important; inset-inline: initial !important; interpolate-size: initial !important; isolation: initial !important; letter-spacing: initial !important; lighting-color: initial !important; line-break: initial !important; list-style: initial !important; margin-block: initial !important; margin: initial !important; margin-inline: initial !important; marker: initial !important; mask-type: initial !important; math-shift: initial !important; math-style: initial !important; max-block-size: initial !important; max-height: initial !important; max-inline-size: initial !important; max-width: initial !important; min-block-size: initial !important; min-height: initial !important; min-inline-size: initial !important; min-width: initial !important; mix-blend-mode: initial !important; object-fit: initial !important; object-position: initial !important; object-view-box: initial !important; offset: initial !important; opacity: initial !important; order: initial !important; orphans: initial !important; outline: initial !important; outline-offset: initial !important; overflow-anchor: initial !important; overflow-clip-margin: initial !important; overflow-wrap: initial !important; overflow: initial !important; overlay: initial !important; overscroll-behavior-block: initial !important; overscroll-behavior-inline: initial !important; overscroll-behavior: initial !important; padding-block: initial !important; padding: initial !important; padding-inline: initial !important; page: initial !important; page-orientation: initial !important; paint-order: initial !important; perspective: initial !important; perspective-origin: initial !important; pointer-events: initial !important; position-try: initial !important; position-visibility: initial !important; quotes: initial !important; r: initial !important; resize: initial !important; rotate: initial !important; ruby-align: initial !important; ruby-position: initial !important; rx: initial !important; ry: initial !important; scale: initial !important; scroll-behavior: initial !important; scroll-initial-target: initial !important; scroll-margin-block: initial !important; scroll-margin: initial !important; scroll-margin-inline: initial !important; scroll-padding-block: initial !important; scroll-padding: initial !important; scroll-padding-inline: initial !important; scroll-snap-align: initial !important; scroll-snap-stop: initial !important; scroll-snap-type: initial !important; scroll-timeline: initial !important; scrollbar-color: initial !important; scrollbar-gutter: initial !important; scrollbar-width: initial !important; shape-image-threshold: initial !important; shape-margin: initial !important; shape-outside: initial !important; shape-rendering: initial !important; size: initial !important; speak: initial !important; stop-color: initial !important; stop-opacity: initial !important; stroke: initial !important; stroke-dasharray: initial !important; stroke-dashoffset: initial !important; stroke-linecap: initial !important; stroke-linejoin: initial !important; stroke-miterlimit: initial !important; stroke-opacity: initial !important; stroke-width: initial !important; tab-size: initial !important; table-layout: initial !important; text-align: initial !important; text-align-last: initial !important; text-anchor: initial !important; text-box: initial !important; text-combine-upright: initial !important; text-decoration: initial !important; text-decoration-skip-ink: initial !important; text-emphasis: initial !important; text-emphasis-position: initial !important; text-indent: initial !important; text-overflow: initial !important; text-shadow: initial !important; text-transform: initial !important; text-underline-offset: initial !important; text-underline-position: initial !important; text-wrap: initial !important; timeline-scope: initial !important; touch-action: initial !important; transform: initial !important; transform-box: initial !important; transform-origin: initial !important; transform-style: initial !important; transition: initial !important; translate: initial !important; user-select: initial !important; vector-effect: initial !important; vertical-align: initial !important; view-timeline: initial !important; view-transition-class: initial !important; view-transition-name: initial !important; visibility: initial !important; border-spacing: initial !important; -webkit-box-align: initial !important; -webkit-box-decoration-break: initial !important; -webkit-box-direction: initial !important; -webkit-box-flex: initial !important; -webkit-box-ordinal-group: initial !important; -webkit-box-orient: initial !important; -webkit-box-pack: initial !important; -webkit-box-reflect: initial !important; -webkit-line-break: initial !important; -webkit-line-clamp: initial !important; -webkit-mask-box-image: initial !important; -webkit-print-color-adjust: initial !important; -webkit-rtl-ordering: initial !important; -webkit-ruby-position: initial !important; -webkit-tap-highlight-color: initial !important; -webkit-text-combine: initial !important; -webkit-text-decorations-in-effect: initial !important; -webkit-text-fill-color: unset !important; -webkit-text-security: initial !important; -webkit-text-stroke: initial !important; -webkit-user-drag: initial !important; white-space-collapse: initial !important; widows: initial !important; width: initial !important; will-change: initial !important; word-break: initial !important; word-spacing: initial !important; x: initial !important; y: initial !important; z-index: initial !important;"><template shadowrootmode="open"><style>#hd-drawer-container {position: fixed; left: 0; top: 0; width: 100vw; height: 100%; overflow: hidden; z-index: 2147483645; pointer-events: none;}#hd-drawer-container.hd-revealed {pointer-events: auto;}#hd-modal-background {position: absolute; left: 0; bottom: 0; background-color: black; transition: opacity .5s ease-in-out; width: 100%; height: 100%; opacity: 0;}.hd-revealed > #hd-modal-background {opacity: 0.5;}#hd-drawer {position: absolute; top: 0; height: 100%; width: min(65vw, 768px); background-color: white; display: flex; flex-direction: column; box-sizing: border-box; padding-bottom: 0px; transition: transform 0.5s ease-in-out;right: 0; border-top-left-radius: 0px; border-bottom-left-radius: 0px; transform: translateX(100%);}.hd-revealed > #hd-drawer {transform: translateY(0);}#hd-control-bar {height: 24px;}.hd-control-button {border: none; background: none; cursor: pointer;}#hd-back-arrow-button {float: left;}#hd-close-button {float: right;}#hd-content-container {flex-grow: 1; overflow: auto;}#hd-content-container::-webkit-scrollbar * {background: transparent;}.hd-hidden {visibility: hidden;}</style><div id="hd-drawer-container" class="hd-hidden" aria-modal="true" role="dialog" tabindex="0"><div id="hd-modal-background"></div><div id="hd-drawer"><div id="hd-control-bar"><button id="hd-back-arrow-button" class="hd-control-button hd-hidden" aria-label=""><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="#5F6368"><path d="m12 20-8-8 8-8 1.425 1.4-5.6 5.6H20v2H7.825l5.6 5.6Z"></path></svg></button><button id="hd-close-button" class="hd-control-button" aria-label=""><svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="#5F6368"><path d="M6.4 19 5 17.6 10.6 12 5 6.4 6.4 5 12 10.6 17.6 5 19 6.4 13.4 12 19 17.6 17.6 19 12 13.4Z"></path></svg></button></div><div id="hd-content-container"><iframe></iframe></div></div></div></template></div><iframe name="__tcfapiLocator" src="./img01_files/saved_resource(3).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="__uspapiLocator" src="./img01_files/saved_resource(4).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="__gppLocator" src="./img01_files/saved_resource(5).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="./img01_files/saved_resource(6).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="./img01_files/saved_resource(7).html" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe src="./img01_files/aframe.html" width="0" height="0" style="display: none;"></iframe><iframe allow="join-ad-interest-group" data-tagging-id="G-KV2Z6H50S9" data-load-time="1742302260008" height="0" width="0" src="./img01_files/rul.html" style="display: none; visibility: hidden;"></iframe><img src="./img01_files/g.gif" alt="" width="6" height="5" id="wpstats"><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge expires in two minutes" name="c-vtg93vj91wxu" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./img01_files/bframe.html" style="width: 100%; height: 100%;"></iframe></div></div></body><iframe id="google_esf" name="google_esf" src="./img01_files/zrt_lookup_fy2021.html" style="display: none;"></iframe></html>
